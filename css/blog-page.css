@@ -1,0 +1,124 @@
+@import url('./blog.css');
+@import url('./cat.css');
+@import url('./footer.css');
+.blog-cat ul.category-list {
+    margin-bottom: 5rem;
+}
+
+.blog-page .title-icon {
+    top: 40%;
+}
+
+.articles-list .article-wrapper {
+    position: relative;
+    align-self: center;
+}
+
+.articles-list .article-title,
+.articles-list .article-inner:hover .article-title {
+    position: relative;
+    left: auto;
+    transform: translate(0, 0);
+}
+
+.articles-list .article-text {
+    color: var(--gray-75);
+    transition: var(--transition-normal) ease-in;
+    transition-property: color;
+    margin-top: 1.5rem;
+    -webkit-line-clamp: 3;
+}
+
+.articles-list .article-text,
+.articles-list .article-inner:hover .article-text {
+    position: relative;
+    left: auto;
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.articles-list .article-inner:hover .article-text {
+    color: var(--white);
+}
+
+.articles-list .article .link-name {
+    opacity: 1;
+    color: var(--black-75);
+    transition: var(--transition-normal) ease-in;
+    transition-property: color;
+}
+
+.articles-list .article-inner {
+    grid-template-rows: 1fr auto 1fr;
+}
+
+.article-wrapper {
+    min-height: 12rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.article-icon {
+    align-self: center;
+    justify-self: center;
+    transition: var(--transition-normal) ease-in;
+    transition-property: filter;
+}
+
+.article-icon img {
+    width: 100%;
+    height: 100%;
+    max-width: 9rem;
+    max-height: 7rem;
+}
+
+.articles-list .article-inner:hover .article-icon {
+    filter: brightness(0) invert(1);
+}
+
+.articles-list .article-inner:hover .icon-arrow .angle path {
+    stroke: var(--white);
+}
+
+.articles-list .article-inner:hover .icon-arrow .icon-line {
+    background: var(--white);
+}
+
+.articles-list .article-inner:hover .link-name {
+    color: var(--white);
+}
+
+.blog-pagination {
+    margin-top: 6rem;
+}
+
+@media screen and (max-width:732px) {
+    .article-wrapper {
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+    }
+    .article-icon {
+        order: 0;
+        justify-self: start;
+    }
+    .article-descr {
+        order: 1;
+    }
+    .articles-list .article-text {
+        margin-top: 0.5rem;
+    }
+    .articles-list .article .link-name {
+        margin-top: 0.5rem;
+    }
+}
+
+@media screen and (max-width:720px) {
+    .articles-list .article-text {
+        display: -webkit-box;
+    }
+    .articles-list .article .link-name .icon-arrow {
+        opacity: 1;
+    }
+}

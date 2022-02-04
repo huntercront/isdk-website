@@ -1,0 +1,1330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ <head>
+  <link rel="preload" href="./css/core.css" as="style">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/core.css">
+  <link rel="stylesheet" href="./css/main-page.css" media="print" async onload="this.media='all'">
+  <noscript>
+					<link rel="stylesheet" href="./css/main-page.css">
+				</noscript>
+ </head>
+
+ <body>
+
+  <header class="header">
+   <div class="container">
+    <div class="nav-content c-sb">
+     <div class="header-logo">
+      <a href="#" class="site-logo c-s" aria-label="Go to main">
+       <svg fill="none" viewBox="0 0 50 24">
+			<g clip-path="url(#logo)">
+				<path fill="#EF7800" 
+					d="M0 0h5.1v23.7H0V0Zm14.8 19.5c0-.5-.2-1-.6-1.3l-2.4-1c-1.1-.3-2-.7-2.7-1-1.8-1-2.7-2.2-2.7-3.7 0-.8.2-1.6.7-2.2.5-.6 1.2-1.1 2.1-1.5a8.3 8.3 0 0 1 6 0c1 .5 1.7 1 2.2 1.7.5.7.7 1.5.7 2.4h-3.3a2 2 0 0 0-.7-1.6 3 3 0 0 0-1.9-.6c-.8 0-1.4.2-1.9.5-.4.3-.6.8-.6 1.3s.2.9.7 1.2c.6.3 1.3.7 2.3 1 2 .5 3.3 1.1 4.1 1.9.9.8 1.3 1.8 1.3 3s-.5 2.2-1.6 3c-1 .7-2.4 1-4.2 1-1.2 0-2.3-.1-3.3-.5-1-.5-1.8-1-2.3-1.8-.5-.7-.8-1.6-.8-2.5h3.3c0 1.6 1 2.4 3.1 2.4.8 0 1.4-.1 1.9-.4.4-.3.6-.7.6-1.3Z">
+				</path>
+				<path class="logo-fill" fill-rule="evenodd"
+					d="M34.2 7.1h3.2v7.4L44.8 7h4.4l-6.7 6.7 7 9.9h-3.9L40.3 16l-3 2.8v4.8h-3V7ZM13.8 0h-6v7.1h6V4H21c2 0 3.4.7 4.4 2 1 1.2 1.5 3 1.5 5.4v1.2c0 2.4-.6 4.1-1.6 5.4-1 1.2-2.4 1.8-4.3 1.8h-1.7v4H21c2 0 3.9-.5 5.5-1.5 1.7-1 3-2.2 3.8-4a11 11 0 0 0 1.4-5.8v-1.1c0-2.2-.4-4.2-1.4-5.9-.9-1.7-2.2-3-3.8-4A9.3 9.3 0 0 0 21 0h-7.2Z"
+					clip-rule="evenodd"></path>
+			</g>
+			<defs>
+				<clipPath id="logo">
+					<path fill="#fff" d="M0 0h50v23.7H0z"></path>
+				</clipPath>
+			</defs>
+		</svg>
+      </a>
+     </div>
+     <nav class="nav">
+      <ul class="no-list c-sb">
+       <li>
+        <a href="#" class="descr down-border">About</a>
+       </li>
+       <li>
+        <a href="#" class="descr down-border">Services</a>
+       </li>
+       <li>
+        <a href="#" class="descr down-border">Projects</a>
+       </li>
+       <li>
+        <a href="#" class="descr down-border">Contact</a>
+       </li>
+      </ul>
+     </nav>
+     <div class="nav-controls c-s">
+      <div class="lang-toggle">
+       <button class="curent-language descr down-border" aria-label="Change-language">en</button>
+      </div>
+      <button class="open-nav c-c" aria-label="Open menu">
+						<div class="menu-icon">
+							<div class="top-line"></div>
+							<div class="down-line"></div>
+						</div>
+					</button>
+     </div>
+    </div>
+   </div>
+
+   <div class="menu-panel">
+
+    <div class="menu">
+
+     <nav class="nav-panel">
+      <ul>
+       <li>
+        <a href="#">About</a>
+        <ul>
+         <li><a href="#">Company</a></li>
+         <li><a href="#">Careers</a></li>
+         <li><a href="#">Contact</a></li>
+        </ul>
+       </li>
+       <li>
+        <a href="#">Services</a>
+        <ul>
+         <li><a href="#">e-Commerce</a></li>
+         <li><a href="#">Digital Transformation</a></li>
+         <li><a href="#">Custom Development</a></li>
+        </ul>
+       </li>
+       <li>
+        <a href="#">Projects</a>
+        <ul>
+         <li><a href="#">Customers and Partners</a></li>
+         <li><a href="#">Cases</a></li>
+        </ul>
+       </li>
+       <li>
+        <a href="#">Blog</a>
+        <ul>
+         <li><a href="#">Development</a></li>
+         <li><a href="#">Marketing</a></li>
+        </ul>
+       </li>
+      </ul>
+     </nav>
+
+     <div class="header-places">
+      <div class="places">
+       <div class="place-el">
+        <p class="m-descr">Germany</p>
+        <p class="descr">Berlin</p>
+        <a href="tel:49 15233977274" class="descr down-border" title="Call to 49 15233977274">49
+								15233977274</a>
+        <div class="place-el"></div>
+       </div>
+
+       <div class="place-el">
+        <p class="m-descr">Baltic</p>
+        <p class="descr">Riga, Latvia</p>
+        <a href="tel:371 27869927" class="descr down-border" title="Call to 371 27869927">371
+								27869927</a>
+        <div class="place-el"></div>
+       </div>
+
+       <div class="place-el">
+        <p class="m-descr">Russia</p>
+        <p class="descr">Moscow</p>
+        <a href="tel:7 495 7204026" class="descr down-border" title="Call to 7 495 7204026">7 495
+								7204026</a>
+        <div class="place-el"></div>
+       </div>
+
+       <div class="place-el">
+        <p class="m-descr">Benelux</p>
+        <p class="descr">Antwerp, Belgium</p>
+        <a href="tel:32 43460180" class="descr down-border" title="Call to 32 43460180">32 43460180</a>
+        <div class="place-el"></div>
+       </div>
+
+       <div class="place-el">
+        <p class="m-descr">USA</p>
+        <p class="descr">Austin, TX</p>
+        <a href="tel:49 15233977274" class="descr down-border" title="Call to 49 15233977274">49
+								15233977274</a>
+        <div class="place-el"></div>
+       </div>
+
+      </div>
+     </div>
+     <div class="header-contacts">
+      <div class="contact-mail">
+       <a href="mailto:info@isdk.pro" class="title-m down-border" title="Write a letter to info@isdk.pro">info@isdk.pro</a>
+      </div>
+      <div class="contacts-social">
+       <ul class="no-list c-s">
+        <li>
+         <a href="#" target="_blank" rel="nofollow noopener" class="descr down-border" title="LinkedIn | Opens in a new tab">LinkedIn</a>
+        </li>
+        <li>
+         <a href="#" target="_blank" rel="nofollow noopener" class="descr down-border" title="Medium | Opens in a new tab">Medium</a>
+        </li>
+        <li>
+         <a href="#" target="_blank" rel="nofollow noopener" class="descr down-border" title="Facebook | Opens in a new tab">Facebook</a>
+        </li>
+       </ul>
+      </div>
+
+      <button class="contact-btn slide-hover">
+						<div class="button-icon icon icon-m c-c">
+							<img class="lazy" data-src="./img/chat-icon.svg" alt="Chat icon">
+						</div>
+						<span class="m-descr m-0">Contact via pop-up form</span>
+						<div class="adv-icon icon icon-sm">
+							<svg fill="none" viewBox="0 0 24 24">
+								<path
+									d="M19 6c0-.6-.4-1-1-1H9a1 1 0 1 0 0 2h8v8a1 1 0 1 0 2 0V6ZM5.7 19.7l13-13-1.4-1.4-13 13 1.4 1.4Z">
+								</path>
+							</svg>
+						</div>
+					</button>
+     </div>
+
+    </div>
+   </div>
+  </header>
+
+
+  <div class="modal">
+   <div class="modal-dialog">
+    <div class="modal-inner">
+     <div class="container">
+      <div class="modal-header c-sb">
+       <h2 class="title-l m-0 ">Contact Us</h2>
+       <button class="hide-modal c-c" aria-label="Close pop-up">
+									<div class="menu-icon">
+										<div class="top-line"></div>
+										<div class="down-line"></div>
+									</div>
+								</button>
+      </div>
+      <div class="modal-content">
+       <div class="modal-form">
+        <div class="modal-form-info">
+         <p class="text-xl m-0">We look forward to hearing from you and will respond by email in no longer than one business day
+         </p>
+         <a href="mailto:info@isdk.pro" class="title-m down-border" title="Write a letter to info@isdk.pro">info@isdk.pro</a>
+         <ul class="no-list c-s">
+          <li>
+           <a href="#" target="_blank" rel="nofollow noopener" class="m-descr down-border" title="LinkedIn | Opens in a new tab">LinkedIn</a>
+          </li>
+          <li>
+           <a href="#" target="_blank" rel="nofollow noopener" class="m-descr down-border" title="Medium | Opens in a new tab">Medium</a>
+          </li>
+          <li>
+           <a href="#" target="_blank" rel="nofollow noopener" class="m-descr down-border" title="Facebook | Opens in a new tab">Facebook</a>
+          </li>
+         </ul>
+        </div>
+        <div class="form">
+         <div class="form-inner">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto pariatur suscipit minima officia iste temporibus fugit, ipsum excepturi saepe eveniet amet totam maiores soluta dolorem nemo aut porro, nesciunt modi similique eos rerum consectetur sint.
+          Molestias eveniet delectus, cum natus assumenda corrupti repudiandae totam reiciendis dolores perferendis esse a, nostrum nihil iure, laboriosam voluptate sapiente. Molestias quaerat aliquid quas quis doloribus facere accusamus, magni dolorem
+          quasi quisquam, laboriosam optio qui eligendi. Deserunt nihil quibusdam, vel nesciunt ut adipisci omnis ratione nobis laudantium perferendis fugit facilis quisquam optio saepe natus perspiciatis iure quo amet error voluptatum asperiores. Blanditiis
+          voluptates perspiciatis nisi amet quae id repellendus sequi pariatur quaerat reiciendis. Neque molestias amet autem commodi ex distinctio placeat architecto suscipit facilis earum eius in iure at veniam libero ratione omnis laboriosam itaque
+          quisquam, voluptates perspiciatis nisi amet quae id repellendus sequi pariatur quaerat reiciendis. Neque molestias amet autem commodi ex distinctio placeat architecto suscipit facilis earum eius in iure at veniam libero ratione omnis laboriosam
+          itaque quisquam,
+
+          <div class="form-row">
+           <div class="input drop-down">
+           </div>
+           <div class="input">
+           </div>
+          </div>
+         </div>
+        </div>
+
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+
+  <div class="cookies-alert">
+   <div class="container">
+    <div class="cookies-info">
+     <p class="m-0">We use cookies to ensure you get the best experience on our website</p>
+     <button class="hide-alert c-c" aria-label="Close cookies alert">
+						<div class="menu-icon">
+							<div class="top-line"></div>
+							<div class="down-line"></div>
+						</div>
+					</button>
+    </div>
+   </div>
+  </div>
+
+
+
+
+
+  <main class="main">
+   <section class="hero">
+    <div class="container">
+     <div class="banner with-links">
+      <div class="title-line">
+       <h1 class="m-0 title-xl">
+        <div class="type-zone typewrite" data-period="4000" data-type='[ "IT solutions", "e-Commerce", "Development"]'>IT solutions</div>
+        <div>that work</div>
+       </h1>
+      </div>
+      <div class="hero-links">
+       <span class="since">— Since 2010</span>
+       <ul class="no-list">
+        <li><a href="#" class="l-descr down-border">e-Commerce</a></li>
+        <li><a href="#" class="l-descr down-border">Digital Transformation</a></li>
+        <li><a href="#" class="l-descr down-border">Custom Development</a></li>
+       </ul>
+      </div>
+     </div>
+    </div>
+   </section>
+
+   <section class="partners">
+    <div class="container">
+     <div class="partners-list">
+      <div class="title-line iconed">
+
+       <div class="title-icon crown">
+        <svg fill="none" viewBox="0 0 252 121">
+									<path fill="url(#a)" d="M14.7 120.8.7 0l69.8 48.8L126.2 0 182 48.8 251.8 0l-14 120.8H14.7Z" />
+									<defs>
+										<linearGradient id="a" x1="71.9" x2="192.5" y1="8.7" y2="211.5" gradientUnits="userSpaceOnUse">
+											<stop offset=".2" stop-color="#EF7800" />
+											<stop offset="1" stop-color="#fff" />
+										</linearGradient>
+									</defs>
+								</svg>
+       </div>
+       <h2 class="title-l">Establishing a true partnership</h2>
+      </div>
+      <a href="#" class="partners-card">
+       <div class="recent-descr">
+
+        <div class="partner-info">
+         <div class="partner-logo">
+          <img class="lazy" data-src="./img/herbalife-logo.svg" alt="">
+         </div>
+         <p class="partner-name descr">We created a demo-training and a quiz for knowledge assessment, we also trained employees. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, explicabo!
+         </p>
+
+        </div>
+
+        <div class="partners-meta">
+         <ul class="partners-cat descr no-list">
+          <li>e-Commerce</li>
+          <li>Digital Transformation</li>
+         </ul>
+        </div>
+
+        <div class="icon-arrow color-main c-s">
+         <div class="icon-line">
+         </div>
+         <div class="angle c-c">
+          <svg fill="none" viewBox="0 0 5 9">
+																				<path stroke-linecap="round" stroke-linejoin="round" d="m1 1 3 3.5L1 8" />
+																			</svg>
+
+         </div>
+        </div>
+
+       </div>
+       <div class="partners-bg s-s">
+        <div class="bg-wrapper lazy-progress lazy-img">
+         <picture>
+          <source type="image/webp" data-srcset="./img/herbalife-bg-x1.webp 1x, ./img/herbalife-bg-x2.webp 2x">
+          <source type="image/jpeg" data-srcset="./img/herbalife-bg-x1.jpg 1x, ./img/herbalife-bg-x2.jpg 2x">
+          <img class="lazy" width="480" height="445" alt="herbalife" data-src="./img/about@1x.png">
+         </picture>
+        </div>
+       </div>
+      </a>
+
+      <a href="#" class="partners-card">
+       <div class="recent-descr">
+
+        <div class="partner-info">
+         <div class="partner-logo">
+          <img class="lazy" data-src="./img/herbalife-logo.svg" alt="">
+         </div>
+         <p class="partner-name descr">We created a demo-training and a quiz for knowledge assessment, we also trained employees. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, explicabo!
+         </p>
+        </div>
+
+        <div class="partners-meta">
+         <ul class="partners-cat descr no-list">
+          <li>e-Commerce</li>
+          <li>Digital Transformation</li>
+         </ul>
+        </div>
+        <div class="icon-arrow color-main c-s">
+         <div class="icon-line">
+         </div>
+         <div class="angle c-c">
+          <svg fill="none" viewBox="0 0 5 9">
+																				<path stroke-linecap="round" stroke-linejoin="round" d="m1 1 3 3.5L1 8" />
+																			</svg>
+
+         </div>
+        </div>
+
+       </div>
+       <div class="partners-bg s-s">
+        <div class="bg-wrapper lazy-progress lazy-img">
+         <picture>
+          <source type="image/webp" data-srcset="./img/herbalife-bg-x1.webp 1x, ./img/herbalife-bg-x2.webp 2x">
+          <source type="image/jpeg" data-srcset="./img/herbalife-bg-x1.jpg 1x, ./img/herbalife-bg-x2.jpg 2x">
+          <img class="lazy" width="480" height="445" alt="herbalife" data-src="./img/about@1x.png">
+         </picture>
+        </div>
+       </div>
+      </a>
+
+      <a href="#" class="partners-card">
+       <div class="recent-descr">
+
+        <div class="partner-info">
+         <div class="partner-logo">
+          <img class="lazy" data-src="./img/herbalife-logo.svg" alt="">
+         </div>
+         <p class="partner-name descr">We created a
+         </p>
+        </div>
+
+        <div class="partners-meta">
+         <ul class="partners-cat descr no-list">
+          <li>e-Commerce</li>
+          <li>Digital Transformation</li>
+         </ul>
+
+        </div>
+        <div class="icon-arrow color-main c-s">
+         <div class="icon-line">
+         </div>
+         <div class="angle c-c">
+          <svg fill="none" viewBox="0 0 5 9">
+			<path stroke-linecap="round" stroke-linejoin="round" d="m1 1 3 3.5L1 8" />
+		</svg>
+
+         </div>
+        </div>
+       </div>
+       <div class="partners-bg s-s">
+        <div class="bg-wrapper lazy-progress lazy-img">
+         <picture>
+          <source type="image/webp" data-srcset="./img/herbalife-bg-x1.webp 1x, ./img/herbalife-bg-x2.webp 2x">
+          <source type="image/jpeg" data-srcset="./img/herbalife-bg-x1.jpg 1x, ./img/herbalife-bg-x2.jpg 2x">
+          <img class="lazy" width="480" height="445" alt="herbalife" data-src="./img/about@1x.png">
+         </picture>
+        </div>
+       </div>
+      </a>
+
+      <a href="#" class="partners-card">
+       <div class="recent-descr">
+
+        <div class="partner-info">
+         <div class="partner-logo">
+          <img class="lazy" data-src="./img/herbalife-logo.svg" alt="">
+         </div>
+         <p class="partner-name descr">We created a demo-training and a quiz for knowledge assessment, we also trained employees. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, explicabo!
+         </p>
+
+        </div>
+
+        <div class="partners-meta">
+         <ul class="partners-cat descr no-list">
+          <li>e-Commerce</li>
+          <li>Digital Transformation</li>
+         </ul>
+        </div>
+
+        <div class="icon-arrow color-main c-s">
+         <div class="icon-line">
+         </div>
+         <div class="angle c-c">
+          <svg fill="none" viewBox="0 0 5 9">
+																<path stroke-linecap="round" stroke-linejoin="round" d="m1 1 3 3.5L1 8" />
+															</svg>
+
+         </div>
+        </div>
+
+       </div>
+       <div class="partners-bg s-s">
+        <div class="bg-wrapper lazy-progress lazy-img">
+         <picture>
+          <source type="image/webp" data-srcset="./img/herbalife-bg-x1.webp 1x, ./img/herbalife-bg-x2.webp 2x">
+          <source type="image/jpeg" data-srcset="./img/herbalife-bg-x1.jpg 1x, ./img/herbalife-bg-x2.jpg 2x">
+          <img class="lazy" width="480" height="445" alt="herbalife" data-src="./img/about@1x.png">
+         </picture>
+        </div>
+       </div>
+      </a>
+
+      <a href="#" class="partners-card">
+       <div class="recent-descr">
+
+        <div class="partner-info">
+         <div class="partner-logo">
+          <img class="lazy" data-src="./img/herbalife-logo.svg" alt="">
+         </div>
+         <p class="partner-name descr">We created a demo-training and a quiz for knowledge assessment, we also trained employees. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, explicabo!
+         </p>
+
+        </div>
+
+        <div class="partners-meta">
+         <ul class="partners-cat descr no-list">
+          <li>e-Commerce</li>
+          <li>Digital Transformation</li>
+         </ul>
+        </div>
+
+        <div class="icon-arrow color-main c-s">
+         <div class="icon-line">
+         </div>
+         <div class="angle c-c">
+          <svg fill="none" viewBox="0 0 5 9">
+											<path stroke-linecap="round" stroke-linejoin="round" d="m1 1 3 3.5L1 8" />
+										</svg>
+
+         </div>
+        </div>
+
+       </div>
+       <div class="partners-bg s-s">
+        <div class="bg-wrapper lazy-progress lazy-img">
+         <picture>
+          <source type="image/webp" data-srcset="./img/herbalife-bg-x1.webp 1x, ./img/herbalife-bg-x2.webp 2x">
+          <source type="image/jpeg" data-srcset="./img/herbalife-bg-x1.jpg 1x, ./img/herbalife-bg-x2.jpg 2x">
+          <img class="lazy" width="480" height="445" alt="herbalife" data-src="./img/about@1x.png">
+         </picture>
+        </div>
+       </div>
+      </a>
+
+      <a href="#" class="partners-card">
+       <div class="recent-descr">
+
+        <div class="partner-info">
+         <div class="partner-logo">
+          <img class="lazy" data-src="./img/herbalife-logo.svg" alt="">
+         </div>
+         <p class="partner-name descr">We created a
+         </p>
+        </div>
+
+        <div class="partners-meta">
+         <ul class="partners-cat descr no-list">
+          <li>e-Commerce</li>
+          <li>Digital Transformation</li>
+         </ul>
+        </div>
+
+        <div class="icon-arrow color-main c-s">
+         <div class="icon-line">
+         </div>
+         <div class="angle c-c">
+          <svg fill="none" viewBox="0 0 5 9">
+											<path stroke-linecap="round" stroke-linejoin="round" d="m1 1 3 3.5L1 8" />
+										</svg>
+
+         </div>
+        </div>
+
+       </div>
+       <div class="partners-bg s-s">
+        <div class="bg-wrapper lazy-progress lazy-img">
+         <picture>
+          <source type="image/webp" data-srcset="./img/herbalife-bg-x1.webp 1x, ./img/herbalife-bg-x2.webp 2x">
+          <source type="image/jpeg" data-srcset="./img/herbalife-bg-x1.jpg 1x, ./img/herbalife-bg-x2.jpg 2x">
+          <img class="lazy" width="480" height="445" alt="herbalife" data-src="./img/about@1x.png">
+         </picture>
+        </div>
+       </div>
+      </a>
+
+
+
+
+      <a href="#" class="partners-card">
+       <div class="recent-descr">
+
+        <div class="partner-info">
+         <div class="partner-logo">
+          <img class="lazy" data-src="./img/herbalife-logo.svg" alt="">
+         </div>
+         <p class="partner-name descr">We created a
+         </p>
+        </div>
+
+        <div class="partners-meta">
+         <ul class="partners-cat descr no-list">
+          <li>e-Commerce</li>
+          <li>Digital Transformation</li>
+         </ul>
+        </div>
+
+        <div class="icon-arrow color-main c-s">
+         <div class="icon-line">
+         </div>
+         <div class="angle c-c">
+          <svg fill="none" viewBox="0 0 5 9">
+			<path stroke-linecap="round" stroke-linejoin="round" d="m1 1 3 3.5L1 8" />
+		</svg>
+
+         </div>
+        </div>
+
+       </div>
+       <div class="partners-bg s-s">
+        <div class="bg-wrapper lazy-progress lazy-img">
+         <picture>
+          <source type="image/webp" data-srcset="./img/herbalife-bg-x1.webp 1x, ./img/herbalife-bg-x2.webp 2x">
+          <source type="image/jpeg" data-srcset="./img/herbalife-bg-x1.jpg 1x, ./img/herbalife-bg-x2.jpg 2x">
+          <img class="lazy" width="480" height="445" alt="herbalife" data-src="./img/about@1x.png">
+         </picture>
+        </div>
+       </div>
+      </a>
+
+
+
+      <a href="#" class="partners-card">
+       <div class="recent-descr">
+
+        <div class="partner-info">
+         <div class="partner-logo">
+          <img class="lazy" data-src="./img/herbalife-logo.svg" alt="">
+         </div>
+         <p class="partner-name descr">We created a
+         </p>
+        </div>
+
+        <div class="partners-meta">
+         <ul class="partners-cat descr no-list">
+          <li>e-Commerce</li>
+          <li>Digital Transformation</li>
+         </ul>
+        </div>
+
+        <div class="icon-arrow color-main c-s">
+         <div class="icon-line">
+         </div>
+         <div class="angle c-c">
+          <svg fill="none" viewBox="0 0 5 9">
+																			<path stroke-linecap="round" stroke-linejoin="round" d="m1 1 3 3.5L1 8" />
+																		</svg>
+
+         </div>
+        </div>
+
+       </div>
+       <div class="partners-bg s-s">
+        <div class="bg-wrapper lazy-progress lazy-img">
+         <picture>
+          <source type="image/webp" data-srcset="./img/herbalife-bg-x1.webp 1x, ./img/herbalife-bg-x2.webp 2x">
+          <source type="image/jpeg" data-srcset="./img/herbalife-bg-x1.jpg 1x, ./img/herbalife-bg-x2.jpg 2x">
+          <img class="lazy" width="480" height="445" alt="herbalife" data-src="./img/about@1x.png">
+         </picture>
+        </div>
+       </div>
+      </a>
+
+      <a href="#" class="partners-card all-partners">
+       <p class="m-descr">Browse all customers and partners</p>
+       <div class="icon-arrow color-gray c-s">
+        <div class="icon-line">
+        </div>
+        <div class="angle c-c">
+         <svg fill="none" viewBox="0 0 5 9">
+																		<path stroke-linecap="round" stroke-linejoin="round" d="m1 1 3 3.5L1 8" />
+																	</svg>
+
+        </div>
+       </div>
+      </a>
+
+
+     </div>
+
+    </div>
+
+   </section>
+
+
+
+   <section class="cases">
+
+    <div class="container">
+     <div class="cases-list">
+
+      <a href="#" class="case" style="color: #3796F6;">
+
+       <div class=" case-wrapper">
+
+        <div class="case-descr">
+         <div class="case-icon c-s">
+          <img class="lazy" data-src="./img/365-icon.svg" alt="">
+         </div>
+
+         <h3 class="title-m m-0">Cargobooking365 —<br/> Part of GSA Group
+         </h3>
+
+         <div class="link-name m-descr">
+          <span>Explore case</span>
+          <div class="icon-arrow c-s color-light arrow-l">
+           <div class="icon-line">
+           </div>
+           <div class="angle c-c">
+            <svg fill="none" viewBox="0 0 9 16">
+												<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+													d="M1.5 1.5 8 8.3l-6.5 6.2" />
+											</svg>
+            </svg>
+           </div>
+          </div>
+         </div>
+
+         <div class="case-img lazy-progress s-s lazy-img">
+          <img class="lazy" data-src="./img/365-img.jpg" alt="Cargobooking365 — Part of GSA Group UI screenshot">
+         </div>
+
+        </div>
+
+
+
+
+       </div>
+      </a>
+
+
+      <a href="#" class="case" style="color: #FF4612;">
+
+       <div class=" case-wrapper">
+
+        <div class="case-descr">
+         <div class="case-icon c-s">
+          <img class="lazy" data-src="./img/harman-icon.svg" alt="">
+         </div>
+
+         <h3 class="title-m m-0">Marketing and eCommerce Setup – Harman & JBL
+         </h3>
+
+         <div class="link-name m-descr">
+          <span>Explore case</span>
+          <div class="icon-arrow c-s color-light arrow-l">
+           <div class="icon-line ">
+           </div>
+           <div class="angle c-c">
+            <svg fill="none" viewBox="0 0 9 16">
+																				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+																					d="M1.5 1.5 8 8.3l-6.5 6.2" />
+																			</svg>
+            </svg>
+           </div>
+          </div>
+         </div>
+
+
+         <div class="case-img lazy-progress s-s lazy-img">
+          <img class="lazy" data-src="./img/jbl-case.jpg" alt="Marketing and eCommerce Setup – Harman & JBL UI screenshot">
+         </div>
+        </div>
+
+
+       </div>
+      </a>
+
+
+
+
+
+     </div>
+     <div class="see-all c-e">
+      <a href="#" class="read-more m-descr slide-hover c-s">
+       <span>Browse all cases</span>
+       <div class="icon-arrow color-gray c-e">
+        <div class="icon-line">
+        </div>
+        <div class="angle c-c">
+         <svg fill="none" viewBox="0 0 5 9">
+									<path stroke-linecap="round" stroke-linejoin="round" d="m1 1 3 3.5L1 8"></path>
+								</svg>
+        </div>
+       </div>
+      </a>
+     </div>
+
+    </div>
+
+   </section>
+
+   <div class="button-block">
+    <div class="container">
+     <a href="#" class="main-btn slide-hover c-c">
+      <div class="button-icon icon icon-m c-c">
+       <img class="lazy" data-src="./img/chat-icon.svg" alt="Chat icon">
+      </div>
+      <span class="title-m">Get in touch to discuss your case</span>
+     </a>
+    </div>
+   </div>
+
+   <div class="decore-text title-xl">OUR FOCUS</div>
+   <section class="focus">
+
+    <div class="container">
+     <div class="fucus-way">
+      <div class="title-line iconed">
+
+       <div class="title-icon zup">
+        <svg width="240" height="329" viewBox="0 0 240 329" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M4.26758 196.04L163.467 5L140.725 132.36H235.831L76.6311 323.4L108.333 196.04H4.26758Z"
+										fill="url(#paint0_linear_490_13257)" />
+									<defs>
+										<linearGradient id="paint0_linear_490_13257" x1="69.9357" y1="28.0553" x2="386.065" y2="214.058"
+											gradientUnits="userSpaceOnUse">
+											<stop offset="0.213542" stop-color="#EF7800" />
+											<stop offset="1" stop-color="white" />
+										</linearGradient>
+									</defs>
+								</svg>
+       </div>
+       <h2 class="title-l">Empowering clients’ businesses with complex solutions</h2>
+      </div>
+      <div class="fucus-stats">
+       <div class="fucus-stat">
+        <p class="fucus-count numbers">248</p>
+        <p class="descr m-0">Solutions successfully developed and implemented</p>
+       </div>
+       <div class="fucus-stat">
+        <p class="fucus-count numbers">40</p>
+        <p class="descr m-0">Narrow specialists with extensive experience involved</p>
+
+       </div>
+      </div>
+     </div>
+
+     <div class="focus-streams">
+      <div class="stream">
+       <h3 class="title-m m-0">
+        e-Commerce and Operations
+       </h3>
+
+       <div class="stream-info">
+        <details class="route-block">
+         <summary class="route-info">
+          <h4 class="route-title m-descr m-0">
+           e-Commerce launch and customisation
+          </h4>
+          <div class="icon-s icon c-c">
+           <svg class="x-icon" fill="none" viewBox="0 0 30 30">
+												<path d="M30 15.5H0M15.5 0v30" />
+											</svg>
+          </div>
+         </summary>
+         <div class="content">
+          <p>Marketing stats claim that people prefer having different shopping options. Approach your customers wherever they are: create new trendy communication channels like m-apps and social media stores.</p>
+          <ul>
+           <li>Sync selling and communication channels</li>
+           <li>Provide immediate service and support</li>
+           <li>Track your customers journey</li>
+          </ul>
+          <a href="#" class="read-more read-small descr slide-hover c-s">
+           <span>Apply for this service</span>
+           <div class="icon-arrow color-gray c-e">
+            <div class="icon-line">
+            </div>
+            <div class="angle c-c">
+             <svg fill="none" viewBox="0 0 5 9">
+														<path stroke-linecap="round" stroke-linejoin="round" d="m1 1 3 3.5L1 8"></path>
+													</svg>
+            </div>
+           </div>
+          </a>
+         </div>
+        </details>
+
+        <details class="route-block">
+         <summary class="route-info">
+          <h4 class="route-title m-descr m-0">
+           Mobile and social apps for your e-store
+          </h4>
+          <div class="icon-s icon c-c">
+           <svg class="x-icon" fill="none" viewBox="0 0 30 30">
+												<path d="M30 15.5H0M15.5 0v30" />
+											</svg>
+          </div>
+         </summary>
+         <div class="content">
+          <p>Marketing stats claim that people prefer having different shopping options. Approach your customers wherever they are: create new trendy communication channels like m-apps and social media stores.</p>
+          <a href="#" class="read-more read-small descr slide-hover c-s">
+           <span>Apply for this service</span>
+           <div class="icon-arrow color-gray c-e">
+            <div class="icon-line">
+            </div>
+            <div class="angle c-c">
+             <svg fill="none" viewBox="0 0 5 9">
+																								<path stroke-linecap="round" stroke-linejoin="round" d="m1 1 3 3.5L1 8"></path>
+																							</svg>
+            </div>
+           </div>
+          </a>
+         </div>
+        </details>
+
+       </div>
+      </div>
+
+
+
+      <div class="stream">
+       <h3 class="title-m m-0">
+        Business Process and Digital Transformation
+       </h3>
+
+       <div class="stream-info">
+        <details class="route-block">
+         <summary class="route-info">
+          <h4 class="route-title m-descr m-0">
+           e-Commerce launch and customisation
+          </h4>
+          <div class="icon-s icon c-c">
+           <svg class="x-icon" fill="none" viewBox="0 0 30 30">
+												<path d="M30 15.5H0M15.5 0v30" />
+											</svg>
+          </div>
+         </summary>
+         <div class="content">
+          <p>Marketing stats claim that people prefer having different shopping options. Approach your customers wherever they are: create new trendy communication channels like m-apps and social media stores.</p>
+          <ul>
+           <li>Sync selling and communication channels</li>
+           <li>Provide immediate service and support</li>
+           <li>Track your customers journey</li>
+          </ul>
+          <a href="#" class="read-more read-small descr slide-hover c-s">
+           <span>Apply for this service</span>
+           <div class="icon-arrow color-gray c-e">
+            <div class="icon-line">
+            </div>
+            <div class="angle c-c">
+             <svg fill="none" viewBox="0 0 5 9">
+																								<path stroke-linecap="round" stroke-linejoin="round" d="m1 1 3 3.5L1 8"></path>
+																							</svg>
+            </div>
+           </div>
+          </a>
+         </div>
+        </details>
+
+        <details class="route-block">
+         <summary class="route-info">
+          <h4 class="route-title m-descr m-0">
+           Mobile and social apps for your e-store
+          </h4>
+          <div class="icon-s icon c-c">
+           <svg class="x-icon" fill="none" viewBox="0 0 30 30">
+												<path d="M30 15.5H0M15.5 0v30" />
+											</svg>
+          </div>
+         </summary>
+         <div class="content">
+          <p>Marketing stats claim that people prefer having different shopping options. Approach your customers wherever they are: create new trendy communication channels like m-apps and social media stores.</p>
+          <a href="#" class="read-more read-small descr slide-hover c-s">
+           <span>Apply for this service</span>
+           <div class="icon-arrow color-gray c-e">
+            <div class="icon-line">
+            </div>
+            <div class="angle c-c">
+             <svg fill="none" viewBox="0 0 5 9">
+																								<path stroke-linecap="round" stroke-linejoin="round" d="m1 1 3 3.5L1 8"></path>
+																							</svg>
+            </div>
+           </div>
+          </a>
+         </div>
+        </details>
+
+       </div>
+      </div>
+     </div>
+    </div>
+
+
+
+    </div>
+
+    <div class="button-block">
+     <div class="container">
+      <a href="#" class="main-btn slide-hover c-c">
+       <div class="button-icon icon icon-m c-c">
+        <img class="lazy" data-src="./img/doc-icon.svg" alt="Chat icon">
+       </div>
+       <span class="title-m">Fill in the brief to get a solution</span>
+      </a>
+     </div>
+    </div>
+   </section>
+
+   <section class="blog">
+    <div class="container">
+     <div class="blog-title">
+      <div class="title-line iconed">
+
+       <div class="title-icon star">
+        <svg width="273" height="260" viewBox="0 0 273 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+         <path d="M136.215 4L167.535 100.392H268.888L186.892 159.966L218.211 256.358L136.215 196.784L54.2193 256.358L85.539 159.966L3.54297 100.392H104.896L136.215 4Z" fill="url(#paint0_linear_490_13256)" />
+         <defs>
+          <linearGradient id="paint0_linear_490_13256" x1="75.8354" y1="24.2023" x2="385.745" y2="274.924" gradientUnits="userSpaceOnUse">
+           <stop offset="0.213542" stop-color="#EF7800" />
+           <stop offset="1" stop-color="white" />
+          </linearGradient>
+         </defs>
+         </svg>
+
+       </div>
+       <h2 class="title-l">From the blog</h2>
+      </div>
+     </div>
+    </div>
+    <div class="blog-articles">
+     <div class="container">
+      <div class="articles-outer">
+       <div class="articles">
+        <article class="article">
+
+         <div class="article-inner">
+
+          <div class="article-info">
+
+           <div class="meta">Dev</div>
+           <time class="article-time c-e">28 / 09 / 21</time>
+          </div>
+          <div class="article-content">
+           <h3 class="title-m article-title m-0">Corporate learning management systems. Harman case</h3>
+           <p class="article-text descr m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad debitis suscipit magnam eum excepturi voluptates perferendis autem dicta praesentium? Constant innovation in data-mining technologies helps companies learn more about their customers
+            and create</p>
+          </div>
+          <a href="#" class="link-name m-descr">
+           <span>Learn more</span>
+           <div class="icon-arrow c-e color-main arrow-l">
+            <div class="icon-line ">
+            </div>
+            <div class="angle c-c">
+             <svg fill="none" viewBox="0 0 9 16">
+												<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+													d="M1.5 1.5 8 8.3l-6.5 6.2">
+												</path>
+											</svg>
+            </div>
+           </div>
+          </a>
+          <div class="article-img lazy-progress lazy-img">
+           <img class="lazy" data-src="./img/article-img.jpg" alt="">
+          </div>
+
+         </div>
+
+        </article>
+
+        <article class="article">
+
+         <div class="article-inner">
+          <div class="article-info">
+           <div class="meta">Dev</div>
+           <time class="article-time c-e">28 / 09 / 21</time>
+          </div>
+          <div class="article-content">
+           <h3 class="title-m article-title m-0">Corporate learning management systems. Harman case</h3>
+           <p class="article-text descr m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad debitis suscipit magnam eum excepturi voluptates perferendis autem dicta praesentium? Constant innovation in data-mining technologies helps companies learn more about their customers
+            and create</p>
+          </div>
+          <a href="#" class="link-name m-descr">
+           <span>Learn more</span>
+           <div class="icon-arrow c-e color-main arrow-l">
+            <div class="icon-line ">
+            </div>
+            <div class="angle c-c">
+             <svg fill="none" viewBox="0 0 9 16">
+												<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1.5 1.5 8 8.3l-6.5 6.2">
+												</path>
+											</svg>
+            </div>
+           </div>
+          </a>
+          <div class="article-img lazy-progress lazy-img">
+           <img class="lazy" data-src="./img/article-img.jpg" alt="">
+          </div>
+         </div>
+        </article>
+
+        <article class="article">
+
+         <div class="article-inner">
+          <div class="article-info">
+           <div class="meta">Dev</div>
+           <time class="article-time c-e">28 / 09 / 21</time>
+          </div>
+          <div class="article-content">
+           <h3 class="title-m article-title m-0">Corporate learning management systems. Harman case</h3>
+           <p class="article-text descr m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad debitis suscipit magnam eum excepturi voluptates perferendis autem dicta praesentium? Constant innovation in data-mining technologies helps companies learn more about their customers
+            and create</p>
+          </div>
+          <a href="#" class="link-name m-descr">
+           <span>Learn more</span>
+           <div class="icon-arrow c-e color-main arrow-l">
+            <div class="icon-line ">
+            </div>
+            <div class="angle c-c">
+             <svg fill="none" viewBox="0 0 9 16">
+														<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+															d="M1.5 1.5 8 8.3l-6.5 6.2">
+														</path>
+													</svg>
+            </div>
+           </div>
+          </a>
+          <div class="article-img lazy-progress lazy-img">
+           <img class="lazy" data-src="./img/article-img.jpg" alt="">
+          </div>
+         </div>
+        </article>
+
+        <article class="article">
+
+         <div class="article-inner">
+
+          <div class="article-info">
+
+           <div class="meta">Dev</div>
+           <time class="article-time c-e">28 / 09 / 21</time>
+          </div>
+          <div class="article-content">
+           <h3 class="title-m article-title m-0">Corporate learning management systems. Harman case</h3>
+           <p class="article-text descr m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad debitis suscipit magnam eum excepturi voluptates perferendis autem dicta praesentium? Constant innovation in data-mining technologies helps companies learn more about their customers
+            and create</p>
+          </div>
+          <a href="#" class="link-name m-descr">
+           <span>Learn more</span>
+           <div class="icon-arrow c-e color-main arrow-l">
+            <div class="icon-line ">
+            </div>
+            <div class="angle c-c">
+             <svg fill="none" viewBox="0 0 9 16">
+														<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+															d="M1.5 1.5 8 8.3l-6.5 6.2">
+														</path>
+													</svg>
+            </div>
+           </div>
+          </a>
+          <div class="article-img lazy-progress lazy-img">
+           <img class="lazy" data-src="./img/article-img.jpg" alt="">
+          </div>
+
+         </div>
+
+        </article>
+
+
+       </div>
+      </div>
+
+
+      <div class="see-all">
+       <div class="slider-buttons c-s">
+        <button class="slider-btn slider-prev" disabled>
+									<div class="icon-arrow c-s color-gray arrow-xl">
+										<div class="icon-line">
+										</div>
+										<div class="angle c-c">
+											<svg fill="none" viewBox="0 0 9 16">
+												<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1.5 1.5 8 8.3l-6.5 6.2"></path>
+											</svg>
+										</div>
+									</div>
+								</button>
+        <button class="slider-btn slider-next">
+									<div class="icon-arrow c-s color-gray arrow-xl">
+										<div class="icon-line">
+										</div>
+										<div class="angle c-c">
+											<svg fill="none" viewBox="0 0 9 16">
+												<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1.5 1.5 8 8.3l-6.5 6.2"></path>
+											</svg>
+										</div>
+									</div>
+								</button>
+       </div>
+
+       <a href="#" class="read-more m-descr slide-hover c-s">
+        <span>Go to blog</span>
+        <div class="icon-arrow color-gray c-e">
+         <div class="icon-line">
+         </div>
+         <div class="angle c-c">
+          <svg fill="none" viewBox="0 0 5 9">
+																	<path stroke-linecap="round" stroke-linejoin="round" d="m1 1 3 3.5L1 8"></path>
+																</svg>
+         </div>
+        </div>
+       </a>
+      </div>
+     </div>
+    </div>
+   </section>
+
+
+  </main>
+
+
+  <footer class="footer">
+   <div class="container">
+    <div class="footer-title">
+     <div class="title-line iconed">
+
+      <div class="title-icon send">
+       <svg width="270" height="270" viewBox="0 0 270 270" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path
+		d="M18 124.322C18 124.322 104.98 152.16 116.921 156.935C124.555 172.205 155.903 253.643 155.903 253.643L212.049 59L18 124.322Z"
+		fill="url(#paint0_linear_766_8449)" />
+	<defs>
+		<linearGradient id="paint0_linear_766_8449" x1="81.3314" y1="59" x2="95.0262" y2="345.058"
+			gradientUnits="userSpaceOnUse">
+			<stop offset="0.213542" stop-color="#EF7800" />
+			<stop offset="1" stop-color="white" />
+		</linearGradient>
+	</defs>
+</svg>
+      </div>
+      <h2 class="title-l">Let’s get started</h2>
+     </div>
+    </div>
+
+    <div class="contact-line">
+     <div class="contact-mail">
+      <a href="mailto:info@isdk.pro" class="title-m down-border" title="Write a letter to info@isdk.pro">info@isdk.pro</a>
+     </div>
+
+
+     <button class="contact-btn slide-hover">
+						<div class="button-icon icon icon-m c-c">
+						<img class="lazy" data-src="./img/chat-icon.svg" alt="Chat icon">
+					</div> 
+					<span class="m-descr m-0">Contact via pop-up form</span>
+					<div class="adv-icon icon icon-sm">
+<svg fill="none" viewBox="0 0 24 24">
+	<path 
+		d="M19 6c0-.6-.4-1-1-1H9a1 1 0 1 0 0 2h8v8a1 1 0 1 0 2 0V6ZM5.7 19.7l13-13-1.4-1.4-13 13 1.4 1.4Z" />
+</svg>
+					</div>
+				</button>
+    </div>
+
+    <div class="footer-links">
+
+     <div class="social">
+
+      <div class="footer-logo c-s">
+       <a href="#" class="site-logo c-s" aria-label="Go to main">
+        <svg fill="none" viewBox="0 0 50 24">
+								<g clip-path="url(#a)">
+									<path fill="#EF7800"
+										d="M0 0h5.1v23.7H0V0Zm14.8 19.5c0-.5-.2-1-.6-1.3l-2.4-1c-1.1-.3-2-.7-2.7-1-1.8-1-2.7-2.2-2.7-3.7 0-.8.2-1.6.7-2.2.5-.6 1.2-1.1 2.1-1.5a8.3 8.3 0 0 1 6 0c1 .5 1.7 1 2.2 1.7.5.7.7 1.5.7 2.4h-3.3a2 2 0 0 0-.7-1.6 3 3 0 0 0-1.9-.6c-.8 0-1.4.2-1.9.5-.4.3-.6.8-.6 1.3s.2.9.7 1.2c.6.3 1.3.7 2.3 1 2 .5 3.3 1.1 4.1 1.9.9.8 1.3 1.8 1.3 3s-.5 2.2-1.6 3c-1 .7-2.4 1-4.2 1-1.2 0-2.3-.1-3.3-.5-1-.5-1.8-1-2.3-1.8-.5-.7-.8-1.6-.8-2.5h3.3c0 1.6 1 2.4 3.1 2.4.8 0 1.4-.1 1.9-.4.4-.3.6-.7.6-1.3Z" />
+									<path fill="#333" fill-rule="evenodd"
+										d="M34.2 7.1h3.2v7.4L44.8 7h4.4l-6.7 6.7 7 9.9h-3.9L40.3 16l-3 2.8v4.8h-3V7ZM13.8 0h-6v7.1h6V4H21c2 0 3.4.7 4.4 2 1 1.2 1.5 3 1.5 5.4v1.2c0 2.4-.6 4.1-1.6 5.4-1 1.2-2.4 1.8-4.3 1.8h-1.7v4H21c2 0 3.9-.5 5.5-1.5 1.7-1 3-2.2 3.8-4a11 11 0 0 0 1.4-5.8v-1.1c0-2.2-.4-4.2-1.4-5.9-.9-1.7-2.2-3-3.8-4A9.3 9.3 0 0 0 21 0h-7.2Z"
+										clip-rule="evenodd" />
+								</g>
+								<defs>
+									<clipPath id="a">
+										<path fill="#fff" d="M0 0h50v23.7H0z" />
+									</clipPath>
+								</defs>
+							</svg>
+       </a>
+      </div>
+
+      <ul class="no-list">
+       <li>
+        <a href="#" target="_blank" rel="nofollow noopener" class="m-descr down-border" title="LinkedIn | Opens in a new tab">LinkedIn</a>
+       </li>
+       <li>
+        <a href="#" target="_blank" rel="nofollow noopener" class="m-descr down-border" title="Medium | Opens in a new tab">Medium</a>
+       </li>
+       <li>
+        <a href="#" target="_blank" rel="nofollow noopener" class="m-descr down-border" title="Facebook | Opens in a new tab">Facebook</a>
+       </li>
+      </ul>
+     </div>
+
+
+     <div class="places">
+      <div class="place-el">
+       <p class="title-m">Germany</p>
+       <p class="m-descr">Berlin</p>
+       <a href="tel:49 15233977274" class="m-descr down-border" title="Call to 49 15233977274">49 15233977274</a>
+       <div class="place-el"></div>
+      </div>
+
+      <div class="place-el">
+       <p class="title-m">Baltic</p>
+       <p class="m-descr">Riga, Latvia</p>
+       <a href="tel:371 27869927" class="m-descr down-border" title="Call to 371 27869927">371 27869927</a>
+       <div class="place-el"></div>
+      </div>
+
+      <div class="place-el">
+       <p class="title-m">Russia</p>
+       <p class="m-descr">Moscow</p>
+       <a href="tel:7 495 7204026" class="m-descr down-border" title="Call to 7 495 7204026">7 495 7204026</a>
+       <div class="place-el"></div>
+      </div>
+
+      <div class="place-el">
+       <p class="title-m">Benelux</p>
+       <p class="m-descr">Antwerp, Belgium</p>
+       <a href="tel:32 43460180" class="m-descr down-border" title="Call to 32 43460180">32 43460180</a>
+       <div class="place-el"></div>
+      </div>
+
+      <div class="place-el">
+       <p class="title-m">USA</p>
+       <p class="m-descr">Austin, TX</p>
+       <a href="tel:49 15233977274" class="m-descr down-border" title="Call to 49 15233977274">49 15233977274</a>
+       <div class="place-el"></div>
+      </div>
+
+     </div>
+
+    </div>
+
+
+
+    <div class="footer-info">
+     <span class="copyright descr">ISDK ©2010-2020, All rights reserved.</span>
+     <ul class="footer-doc no-list">
+      <li>
+       <a href="#" class="descr inline-link" title="Cookies">Cookies</a>
+      </li>
+      <li>
+       <a href="#" class="descr inline-link" title="Privacy policy">Privacy policy</a>
+      </li>
+
+     </ul>
+    </div>
+   </div>
+
+
+
+  </footer>
+
+ </body>
+ <script src="./js/app.js"></script>
+
+</html>

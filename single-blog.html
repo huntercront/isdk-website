@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ <head>
+  <link rel="preload" href="./css/core.css" as="style">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/core.css">
+  <link rel="stylesheet" href="./css/single-blog.css" media="print" async onload="this.media='all'">
+  <noscript>
+		<link rel="stylesheet" href="./css/main-page.css">
+	</noscript>
+ </head>
+
+ <body>
+
+  <header class="header">
+   <div class="container">
+    <div class="nav-content c-sb">
+     <div class="header-logo">
+      <a href="#" class="site-logo c-s" aria-label="Go to main">
+       <svg fill="none" viewBox="0 0 50 24">
+							<g clip-path="url(#logo)">
+								<path fill="#EF7800"
+									d="M0 0h5.1v23.7H0V0Zm14.8 19.5c0-.5-.2-1-.6-1.3l-2.4-1c-1.1-.3-2-.7-2.7-1-1.8-1-2.7-2.2-2.7-3.7 0-.8.2-1.6.7-2.2.5-.6 1.2-1.1 2.1-1.5a8.3 8.3 0 0 1 6 0c1 .5 1.7 1 2.2 1.7.5.7.7 1.5.7 2.4h-3.3a2 2 0 0 0-.7-1.6 3 3 0 0 0-1.9-.6c-.8 0-1.4.2-1.9.5-.4.3-.6.8-.6 1.3s.2.9.7 1.2c.6.3 1.3.7 2.3 1 2 .5 3.3 1.1 4.1 1.9.9.8 1.3 1.8 1.3 3s-.5 2.2-1.6 3c-1 .7-2.4 1-4.2 1-1.2 0-2.3-.1-3.3-.5-1-.5-1.8-1-2.3-1.8-.5-.7-.8-1.6-.8-2.5h3.3c0 1.6 1 2.4 3.1 2.4.8 0 1.4-.1 1.9-.4.4-.3.6-.7.6-1.3Z">
+								</path>
+								<path class="logo-fill" fill-rule="evenodd"
+									d="M34.2 7.1h3.2v7.4L44.8 7h4.4l-6.7 6.7 7 9.9h-3.9L40.3 16l-3 2.8v4.8h-3V7ZM13.8 0h-6v7.1h6V4H21c2 0 3.4.7 4.4 2 1 1.2 1.5 3 1.5 5.4v1.2c0 2.4-.6 4.1-1.6 5.4-1 1.2-2.4 1.8-4.3 1.8h-1.7v4H21c2 0 3.9-.5 5.5-1.5 1.7-1 3-2.2 3.8-4a11 11 0 0 0 1.4-5.8v-1.1c0-2.2-.4-4.2-1.4-5.9-.9-1.7-2.2-3-3.8-4A9.3 9.3 0 0 0 21 0h-7.2Z"
+									clip-rule="evenodd"></path>
+							</g>
+							<defs>
+								<clipPath id="logo">
+									<path fill="#fff" d="M0 0h50v23.7H0z"></path>
+								</clipPath>
+							</defs>
+						</svg>
+      </a>
+     </div>
+     <nav class="nav">
+      <ul class="no-list c-sb">
+
+       <li class="current-menu-item"><a href="https://newpro.isdk.pro/projects">Projects</a></li>
+       <li><a href="https://newpro.isdk.pro/contucts">Contucts</a></li>
+       <li>
+        <a href="#" class="descr down-border">About</a>
+       </li>
+       <li>
+        <a href="#" class="descr down-border">Services</a>
+       </li>
+       <li>
+        <a href="#" class="descr down-border">Projects</a>
+       </li>
+       <li>
+        <a href="#" class="descr down-border">Contact</a>
+       </li>
+      </ul>
+     </nav>
+     <div class="nav-controls c-s">
+      <div class="lang-toggle">
+       <button class="curent-language descr down-border" aria-label="Change-language">en</button>
+      </div>
+      <button class="open-nav c-c" aria-label="Open menu">
+						<div class="menu-icon">
+							<div class="top-line"></div>
+							<div class="down-line"></div>
+						</div>
+					</button>
+     </div>
+    </div>
+   </div>
+
+   <div class="menu-panel">
+
+    <div class="menu">
+
+     <nav class="nav-panel">
+      <ul>
+       <li>
+        <a href="#">About</a>
+        <ul>
+         <li><a href="#">Company</a></li>
+         <li><a href="#">Careers</a></li>
+         <li><a href="#">Contact</a></li>
+        </ul>
+       </li>
+       <li>
+        <a href="#">Services</a>
+        <ul>
+         <li><a href="#">e-Commerce</a></li>
+         <li><a href="#">Digital Transformation</a></li>
+         <li><a href="#">Custom Development</a></li>
+        </ul>
+       </li>
+       <li>
+        <a href="#">Projects</a>
+        <ul>
+         <li><a href="#">Customers and Partners</a></li>
+         <li><a href="#">Cases</a></li>
+        </ul>
+       </li>
+       <li>
+        <a href="#">Blog</a>
+        <ul>
+         <li><a href="#">Development</a></li>
+         <li><a href="#">Marketing</a></li>
+        </ul>
+       </li>
+      </ul>
+     </nav>
+
+     <div class="header-places">
+      <div class="places">
+       <div class="place-el">
+        <p class="m-descr">Germany</p>
+        <p class="descr">Berlin</p>
+        <a href="tel:49 15233977274" class="descr down-border" title="Call to 49 15233977274">49
+								15233977274</a>
+        <div class="place-el"></div>
+       </div>
+
+       <div class="place-el">
+        <p class="m-descr">Baltic</p>
+        <p class="descr">Riga, Latvia</p>
+        <a href="tel:371 27869927" class="descr down-border" title="Call to 371 27869927">371
+								27869927</a>
+        <div class="place-el"></div>
+       </div>
+
+       <div class="place-el">
+        <p class="m-descr">Russia</p>
+        <p class="descr">Moscow</p>
+        <a href="tel:7 495 7204026" class="descr down-border" title="Call to 7 495 7204026">7 495
+								7204026</a>
+        <div class="place-el"></div>
+       </div>
+
+       <div class="place-el">
+        <p class="m-descr">Benelux</p>
+        <p class="descr">Antwerp, Belgium</p>
+        <a href="tel:32 43460180" class="descr down-border" title="Call to 32 43460180">32
+								43460180</a>
+        <div class="place-el"></div>
+       </div>
+
+       <div class="place-el">
+        <p class="m-descr">USA</p>
+        <p class="descr">Austin, TX</p>
+        <a href="tel:49 15233977274" class="descr down-border" title="Call to 49 15233977274">49
+								15233977274</a>
+        <div class="place-el"></div>
+       </div>
+
+      </div>
+     </div>
+     <div class="header-contacts">
+      <div class="contact-mail">
+       <a href="mailto:info@isdk.pro" class="title-m down-border" title="Write a letter to info@isdk.pro">info@isdk.pro</a>
+      </div>
+      <div class="contacts-social">
+       <ul class="no-list c-s">
+        <li>
+         <a href="#" target="_blank" rel="nofollow noopener" class="descr down-border" title="LinkedIn | Opens in a new tab">LinkedIn</a>
+        </li>
+        <li>
+         <a href="#" target="_blank" rel="nofollow noopener" class="descr down-border" title="Medium | Opens in a new tab">Medium</a>
+        </li>
+        <li>
+         <a href="#" target="_blank" rel="nofollow noopener" class="descr down-border" title="Facebook | Opens in a new tab">Facebook</a>
+        </li>
+       </ul>
+      </div>
+
+      <button class="contact-btn slide-hover">
+						<div class="button-icon icon icon-m c-c">
+							<img class="lazy" data-src="./img/chat-icon.svg" alt="Chat icon">
+						</div>
+						<span class="m-descr m-0">Contact via pop-up form</span>
+						<div class="adv-icon icon icon-sm">
+							<svg fill="none" viewBox="0 0 24 24">
+								<path
+									d="M19 6c0-.6-.4-1-1-1H9a1 1 0 1 0 0 2h8v8a1 1 0 1 0 2 0V6ZM5.7 19.7l13-13-1.4-1.4-13 13 1.4 1.4Z">
+								</path>
+							</svg>
+						</div>
+					</button>
+     </div>
+
+    </div>
+   </div>
+  </header>
+
+
+
+
+
+  <main class="main single-blog">
+   <section class="hero">
+    <div class="container">
+     <div class="banner">
+      <div class="title-line">
+       <h1 class="m-0 title-x">
+        Corporate learning management systems. Harman case
+       </h1>
+      </div>
+     </div>
+    </div>
+   </section>
+
+   <div class="blog-meta">
+    <div class="container">
+     <div class="blog-subtitle">
+      <p class="l-descr blog-sub">Online education grows very rapidly. It became so popular that already overtook traditional in-person classes.</p>
+      <time class="article-time c-e">08 / 01 / 2022</time>
+     </div>
+
+     <div class="blog-cat">
+      <ul class="no-list category-list">
+       <li><a href="https://newpro.isdk.pro/category/custom-development/" class="slide-hover descr" title="Custom Development"><span>Custom Development</span></a></li>
+       <li><a href="https://newpro.isdk.pro/category/dev/" class="slide-hover descr" title="Dev"><span>Dev</span></a></li>
+       <li><a href="https://newpro.isdk.pro/category/digital-transformation/" class="slide-hover descr" title="Digital Transformation"><span>Digital Transformation</span></a></li>
+       <li><a href="https://newpro.isdk.pro/category/e-commerce/" class="slide-hover descr" title="e-Commerce"><span>e-Commerce</span></a></li>
+      </ul>
+     </div>
+    </div>
+   </div>
+
+
+   <div class="blog-content article-content">
+    <div class="container">
+     <div class="cols-content">
+      <h3 class="title-m">SaaS-platform architecture</h3>
+      <div class="content-col">
+       <p>The main feature of the system is that it uses SaaS model. This determines the choice of the solution tech stack. The system can be launched in the most suitable environment depending on the business goals – be it cloud solutions from Microsoft
+        Azure / Amazon AWS or private or virtual servers.</p>
+       <p>Functionally, the solution is composed of several modules:</p>
+       <ul>
+        <li>The heart of the system: search and calculation of the rates,</li>
+        <li>Schedules module – loading flight schedules and selecting specific flights,</li>
+        <li>Integration gateway to provide the exchange of key data with third-party systems:
+         <ul>
+          <li>A service for air waybill documents recognition,</li>
+          <li>Dynamics CRM 365 system,</li>
+          <li>Aviation data reference and information services on the Internet.</li>
+         </ul>
+        </li>
+       </ul>
+      </div>
+      <div class="notice m-descr">
+       <p>Architecture is based on cross-platform and open-source technologies. This makes it relatively easy to scale the system geographically, as well as when growing its performance. </p>
+      </div>
+     </div>
+     <div class="single-title">
+      <h3 class="title-m">Harman case</h3>
+     </div>
+     <div class="cols-content">
+      <p class="m-descr">Before the LMS implementation</p>
+      <div class="content-col">
+       <p>The main feature of the system is that it uses SaaS model. This determines the choice of the solution tech stack. The system can be launched in the most suitable environment depending on the business goals – be it cloud solutions from Microsoft
+        Azure / Amazon AWS or private or virtual servers.</p>
+       <p>Functionally, the solution is composed of several modules:</p>
+       <ul>
+        <li>The heart of the system: search and calculation of the rates,</li>
+        <li>Schedules module – loading flight schedules and selecting specific flights,</li>
+        <li>Integration gateway to provide the exchange of key data with third-party systems:
+         <ul>
+          <li>A service for air waybill documents recognition,</li>
+          <li>Dynamics CRM 365 system,</li>
+          <li>Aviation data reference and information services on the Internet.</li>
+         </ul>
+        </li>
+       </ul>
+      </div>
+     </div>
+
+     <div class="cols-content">
+      <p class="m-descr">What has been done</p>
+      <div class="content-col">
+       <p>Having compared different platforms, the company chose Moodle, one of the most popular open-source platforms for online education (more about the platform in this article).</p>
+       <p><b>As for the employees’ online education, companies may get lots of benefits from it too:</b></p>
+
+       <blockquote>
+        <p>The new LMS has met key client requirements – they find a way to consolidate all the products’ materials and present information to their internal personnel as well as external partners.</p>
+       </blockquote>
+
+       <ul>
+        <li>A service for air waybill documents recognition,</li>
+        <li>Dynamics CRM 365 system,</li>
+        <li>Aviation data reference and information services on the Internet.</li>
+       </ul>
+      </div>
+     </div>
+
+    </div>
+   </div>
+
+
+   <section class="more-blog">
+    <div class="container">
+     <div class="blog-title">
+      <div class="title-line iconed">
+       <div class="title-icon star">
+        <svg width="273" height="260" viewBox="0 0 273 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path
+						d="M136.215 4L167.535 100.392H268.888L186.892 159.966L218.211 256.358L136.215 196.784L54.2193 256.358L85.539 159.966L3.54297 100.392H104.896L136.215 4Z"
+						fill="url(#paint0_linear_490_13256)"></path>
+					<defs>
+						<linearGradient id="paint0_linear_490_13256" x1="75.8354" y1="24.2023" x2="385.745" y2="274.924"
+							gradientUnits="userSpaceOnUse">
+							<stop offset="0.213542" stop-color="#EF7800"></stop>
+							<stop offset="1" stop-color="white"></stop>
+						</linearGradient>
+					</defs>
+				</svg>
+       </div>
+       <h2 class="title-l">More Dev posts</h2>
+      </div>
+     </div>
+
+
+     <div class="articles-list 0">
+
+
+      <article class="article">
+       <div class="article-inner">
+        <div class="article-info">
+         <div class="meta">Dev</div>
+         <time class="article-time c-e">08 / 01 / 2022</time>
+        </div>
+        <div class="article-wrapper">
+         <div class="article-descr">
+          <h3 class="title-m article-title m-0">test9</h3>
+          <p class="article-text descr m-0"></p>
+         </div>
+         <div class="article-icon c-c">
+          <img class="lazy loading" data-src="" alt="Logo" data-ll-status="loading">
+         </div>
+        </div>
+        <a href="https://newpro.isdk.pro/blogs/test9/" class="link-name m-descr c-sb">
+         <span>Learn more</span>
+         <div class="icon-arrow c-e color-gray arrow-l">
+          <div class="icon-line ">
+          </div>
+          <div class="angle c-c">
+           <svg fill="none" viewBox="0 0 9 16">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+									d="M1.5 1.5 8 8.3l-6.5 6.2">
+								</path>
+							</svg>
+          </div>
+         </div>
+        </a>
+        <div class="article-img lazy-progress lazy-img">
+         <img class="lazy error" data-src="./img/article-img.jpg" alt="" data-ll-status="error" src="./img/article-img.jpg">
+        </div>
+       </div>
+      </article>
+
+
+
+      <article class="article">
+       <div class="article-inner">
+        <div class="article-info">
+         <div class="meta">Dev</div>
+         <time class="article-time c-e">08 / 01 / 2022</time>
+        </div>
+        <div class="article-wrapper">
+         <div class="article-descr">
+          <h3 class="title-m article-title m-0">test8</h3>
+          <p class="article-text descr m-0"></p>
+         </div>
+         <div class="article-icon c-c">
+          <img class="lazy loading" data-src="" alt="Logo" data-ll-status="loading">
+         </div>
+        </div>
+        <a href="https://newpro.isdk.pro/blogs/test8/" class="link-name m-descr c-sb">
+         <span>Learn more</span>
+         <div class="icon-arrow c-e color-gray arrow-l">
+          <div class="icon-line ">
+          </div>
+          <div class="angle c-c">
+           <svg fill="none" viewBox="0 0 9 16">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+									d="M1.5 1.5 8 8.3l-6.5 6.2">
+								</path>
+							</svg>
+          </div>
+         </div>
+        </a>
+        <div class="article-img lazy-progress lazy-img">
+         <img class="lazy error" data-src="./img/article-img.jpg" alt="" data-ll-status="error" src="./img/article-img.jpg">
+        </div>
+       </div>
+      </article>
+
+
+     </div>
+
+     <div class="button-block">
+      <a href="#" class="main-btn slide-hover c-c">
+       <div class="button-icon icon icon-m c-c">
+        <img class="lazy" data-src="./img/doc-icon.svg" alt="Chat icon">
+       </div>
+       <span class="title-m">Fill in the brief to get a solution</span>
+      </a>
+     </div>
+    </div>
+   </section>
+  </main>
+
+
+  <footer class="footer">
+   <div class="container">
+    <div class="footer-title">
+     <div class="title-line iconed">
+
+      <div class="title-icon send">
+       <svg width="270" height="270" viewBox="0 0 270 270" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M18 124.322C18 124.322 104.98 152.16 116.921 156.935C124.555 172.205 155.903 253.643 155.903 253.643L212.049 59L18 124.322Z"
+								fill="url(#paint0_linear_766_8449)" />
+							<defs>
+								<linearGradient id="paint0_linear_766_8449" x1="81.3314" y1="59" x2="95.0262"
+									y2="345.058" gradientUnits="userSpaceOnUse">
+									<stop offset="0.213542" stop-color="#EF7800" />
+									<stop offset="1" stop-color="white" />
+								</linearGradient>
+							</defs>
+						</svg>
+      </div>
+      <h2 class="title-l">Let’s get started</h2>
+     </div>
+    </div>
+
+    <div class="contact-line">
+     <div class="contact-mail">
+      <a href="mailto:info@isdk.pro" class="title-m down-border" title="Write a letter to info@isdk.pro">info@isdk.pro</a>
+     </div>
+
+
+     <button class="contact-btn slide-hover">
+					<div class="button-icon icon icon-m c-c">
+						<img class="lazy" data-src="./img/chat-icon.svg" alt="Chat icon">
+					</div>
+					<span class="m-descr m-0">Contact via pop-up form</span>
+					<div class="adv-icon icon icon-sm">
+						<svg fill="none" viewBox="0 0 24 24">
+							<path
+								d="M19 6c0-.6-.4-1-1-1H9a1 1 0 1 0 0 2h8v8a1 1 0 1 0 2 0V6ZM5.7 19.7l13-13-1.4-1.4-13 13 1.4 1.4Z" />
+						</svg>
+					</div>
+				</button>
+    </div>
+
+    <div class="footer-links">
+
+     <div class="social">
+
+      <div class="footer-logo c-s">
+       <a href="#" class="site-logo c-s" aria-label="Go to main">
+        <svg fill="none" viewBox="0 0 50 24">
+								<g clip-path="url(#a)">
+									<path fill="#EF7800"
+										d="M0 0h5.1v23.7H0V0Zm14.8 19.5c0-.5-.2-1-.6-1.3l-2.4-1c-1.1-.3-2-.7-2.7-1-1.8-1-2.7-2.2-2.7-3.7 0-.8.2-1.6.7-2.2.5-.6 1.2-1.1 2.1-1.5a8.3 8.3 0 0 1 6 0c1 .5 1.7 1 2.2 1.7.5.7.7 1.5.7 2.4h-3.3a2 2 0 0 0-.7-1.6 3 3 0 0 0-1.9-.6c-.8 0-1.4.2-1.9.5-.4.3-.6.8-.6 1.3s.2.9.7 1.2c.6.3 1.3.7 2.3 1 2 .5 3.3 1.1 4.1 1.9.9.8 1.3 1.8 1.3 3s-.5 2.2-1.6 3c-1 .7-2.4 1-4.2 1-1.2 0-2.3-.1-3.3-.5-1-.5-1.8-1-2.3-1.8-.5-.7-.8-1.6-.8-2.5h3.3c0 1.6 1 2.4 3.1 2.4.8 0 1.4-.1 1.9-.4.4-.3.6-.7.6-1.3Z" />
+									<path fill="#333" fill-rule="evenodd"
+										d="M34.2 7.1h3.2v7.4L44.8 7h4.4l-6.7 6.7 7 9.9h-3.9L40.3 16l-3 2.8v4.8h-3V7ZM13.8 0h-6v7.1h6V4H21c2 0 3.4.7 4.4 2 1 1.2 1.5 3 1.5 5.4v1.2c0 2.4-.6 4.1-1.6 5.4-1 1.2-2.4 1.8-4.3 1.8h-1.7v4H21c2 0 3.9-.5 5.5-1.5 1.7-1 3-2.2 3.8-4a11 11 0 0 0 1.4-5.8v-1.1c0-2.2-.4-4.2-1.4-5.9-.9-1.7-2.2-3-3.8-4A9.3 9.3 0 0 0 21 0h-7.2Z"
+										clip-rule="evenodd" />
+								</g>
+								<defs>
+									<clipPath id="a">
+										<path fill="#fff" d="M0 0h50v23.7H0z" />
+									</clipPath>
+								</defs>
+							</svg>
+       </a>
+      </div>
+
+      <ul class="no-list">
+       <li>
+        <a href="#" target="_blank" rel="nofollow noopener" class="m-descr down-border" title="LinkedIn | Opens in a new tab">LinkedIn</a>
+       </li>
+       <li>
+        <a href="#" target="_blank" rel="nofollow noopener" class="m-descr down-border" title="Medium | Opens in a new tab">Medium</a>
+       </li>
+       <li>
+        <a href="#" target="_blank" rel="nofollow noopener" class="m-descr down-border" title="Facebook | Opens in a new tab">Facebook</a>
+       </li>
+      </ul>
+     </div>
+
+
+     <div class="places">
+      <div class="place-el">
+       <p class="title-m">Germany</p>
+       <p class="m-descr">Berlin</p>
+       <a href="tel:49 15233977274" class="m-descr down-border" title="Call to 49 15233977274">49
+							15233977274</a>
+       <div class="place-el"></div>
+      </div>
+
+      <div class="place-el">
+       <p class="title-m">Baltic</p>
+       <p class="m-descr">Riga, Latvia</p>
+       <a href="tel:371 27869927" class="m-descr down-border" title="Call to 371 27869927">371
+							27869927</a>
+       <div class="place-el"></div>
+      </div>
+
+      <div class="place-el">
+       <p class="title-m">Russia</p>
+       <p class="m-descr">Moscow</p>
+       <a href="tel:7 495 7204026" class="m-descr down-border" title="Call to 7 495 7204026">7 495
+							7204026</a>
+       <div class="place-el"></div>
+      </div>
+
+      <div class="place-el">
+       <p class="title-m">Benelux</p>
+       <p class="m-descr">Antwerp, Belgium</p>
+       <a href="tel:32 43460180" class="m-descr down-border" title="Call to 32 43460180">32
+							43460180</a>
+       <div class="place-el"></div>
+      </div>
+
+      <div class="place-el">
+       <p class="title-m">USA</p>
+       <p class="m-descr">Austin, TX</p>
+       <a href="tel:49 15233977274" class="m-descr down-border" title="Call to 49 15233977274">49
+							15233977274</a>
+       <div class="place-el"></div>
+      </div>
+
+     </div>
+
+    </div>
+
+
+
+    <div class="footer-info">
+     <span class="copyright descr">ISDK ©2010-2020, All rights reserved.</span>
+     <ul class="footer-doc no-list">
+      <li>
+       <a href="#" class="descr inline-link" title="Cookies">Cookies</a>
+      </li>
+      <li>
+       <a href="#" class="descr inline-link" title="Privacy policy">Privacy policy</a>
+      </li>
+
+     </ul>
+    </div>
+   </div>
+
+
+
+  </footer>
+
+ </body>
+ <script src="./js/app.js"></script>
+
+</html>
+
+</html>

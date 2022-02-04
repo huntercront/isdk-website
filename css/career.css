@@ -1,0 +1,53 @@
+.focus:before {
+    display: none;
+}
+
+.career-page .focus {
+    padding: 0;
+}
+
+.career-page .focus-streams {
+    margin: 0;
+}
+
+.career-page .focus {
+    margin-top: 10.5rem;
+}
+
+.vacancies .route-title {
+    transition: var(--transition-normal);
+}
+
+.vacancies .open .route-title {
+    color: var(--main);
+}
+
+.vacancies .route-block .content p+ul,
+.vacancies .route-block .content p+p {
+    margin: 1.875rem 0;
+}
+
+.vacancies .route-block .content strong {
+    font-weight: normal;
+    color: var(--black-100);
+}
+
+.vacancies .route-block .content ul {
+    padding-left: 1.5em;
+}
+
+.career-page .focus {
+    padding-top: 0;
+}
+
+@media screen and (max-width:848px) {
+    .career-page .focus {
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .career-page .focus {
+        margin-top: 0rem;
+    }
+}

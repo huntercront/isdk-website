@@ -1,0 +1,174 @@
+.people svg {
+    max-width: 9rem;
+}
+
+.about-content,
+.career {
+    margin-top: 6.25rem;
+}
+
+.title-icon.people {
+    transform: translate(-50%, -25%);
+}
+
+.about-title {
+    font-size: 2.875rem;
+    font-weight: 800;
+    margin-bottom: 5rem;
+}
+
+.text-xl,
+.about-title {
+    font-family: 'Inter', sans-serif;
+    color: var(--black-100);
+}
+
+.text-xl {
+    font-size: 1.8125rem;
+    font-weight: 400;
+}
+
+.about-row,
+.about-numbers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.about-row+.about-row {
+    margin-top: 7.825rem;
+}
+
+.about-row.right-text .about-descr {
+    order: 2;
+}
+
+.about-row.right-text .about-descr {
+    order: 1;
+}
+
+.about-row .about-descr {
+    max-width: 31.5rem;
+}
+
+.about-numbers .descr {
+    max-width: 9.5rem;
+    color: var(--gray-75);
+}
+
+.about-picture.lazy-img::before {
+    padding-bottom: 58%;
+}
+
+.about-tools .lazy-img::before {
+    padding-bottom: 58%;
+}
+
+.about-map {
+    margin-top: 6.25rem;
+    margin-bottom: 6.25rem;
+}
+
+.clients {
+    margin-top: 12.5rem;
+}
+
+.button-block {
+    margin-bottom: 12.5rem;
+}
+
+.clients {
+    margin-bottom: 6.25rem;
+}
+
+.w-75 {
+    max-width: 56.25rem;
+}
+
+@media screen and (max-width: 848px) {
+    .about-title {
+        font-size: 2.5rem;
+        margin-bottom: 3.75rem;
+    }
+    .about-row+.about-row {
+        margin-top: 6.25rem;
+    }
+    .about-map {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    .clients {
+        margin-top: 8rem;
+    }
+    .button-block {
+        margin-bottom: 8rem;
+    }
+    .text-xl {
+        font-size: 1.625rem;
+    }
+    .about-content,
+    .career {
+        margin-top: 4.25rem;
+    }
+    .title-icon.people {
+        max-width: 7.25rem;
+    }
+}
+
+@media screen and (max-width: 732px) {
+    .about-row {
+        grid-template-columns: 1fr;
+        row-gap: 1.75rem;
+    }
+    .about-row .about-descr {
+        max-width: none;
+    }
+    .about-row.right-text .about-descr {
+        order: 0;
+    }
+    .tools .about-row {
+        row-gap: 5rem;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .title-icon.people {
+        max-width: 5.25rem;
+    }
+    .about-content,
+    .career {
+        margin-top: 3.125rem;
+    }
+    .about-title {
+        margin-bottom: 2.5rem;
+        font-size: 2.125rem;
+    }
+    .text-xl {
+        font-size: 1.375rem;
+    }
+    .about-row+.about-row {
+        margin-top: 5rem;
+    }
+    .about-map {
+        margin-top: 3.75rem;
+        margin-bottom: 3.75rem;
+        overflow: hidden;
+    }
+    .about-map .lazy-img {
+        margin-left: -15%;
+        margin-right: -30%;
+    }
+    .about-map {
+        margin-left: -1.25rem;
+        margin-right: -1.25rem;
+    }
+    .clients {
+        margin-top: 5rem;
+    }
+    .button-block {
+        margin-bottom: 5rem;
+    }
+    .tools .about-row {
+        row-gap: 3.125rem;
+    }
+}

@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ <head>
+  <link rel="preload" href="./css/core.css" as="style">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/core.css">
+  <link rel="stylesheet" href="./css/single-project.css" media="print" async onload="this.media='all'">
+  <noscript>
+		<link rel="stylesheet" href="./css/main-page.css">
+	</noscript>
+ </head>
+
+ <body>
+
+  <header class="header">
+   <div class="container">
+    <div class="nav-content c-sb">
+     <div class="header-logo">
+      <a href="#" class="site-logo c-s" aria-label="Go to main">
+       <svg fill="none" viewBox="0 0 50 24">
+							<g clip-path="url(#logo)">
+								<path fill="#EF7800"
+									d="M0 0h5.1v23.7H0V0Zm14.8 19.5c0-.5-.2-1-.6-1.3l-2.4-1c-1.1-.3-2-.7-2.7-1-1.8-1-2.7-2.2-2.7-3.7 0-.8.2-1.6.7-2.2.5-.6 1.2-1.1 2.1-1.5a8.3 8.3 0 0 1 6 0c1 .5 1.7 1 2.2 1.7.5.7.7 1.5.7 2.4h-3.3a2 2 0 0 0-.7-1.6 3 3 0 0 0-1.9-.6c-.8 0-1.4.2-1.9.5-.4.3-.6.8-.6 1.3s.2.9.7 1.2c.6.3 1.3.7 2.3 1 2 .5 3.3 1.1 4.1 1.9.9.8 1.3 1.8 1.3 3s-.5 2.2-1.6 3c-1 .7-2.4 1-4.2 1-1.2 0-2.3-.1-3.3-.5-1-.5-1.8-1-2.3-1.8-.5-.7-.8-1.6-.8-2.5h3.3c0 1.6 1 2.4 3.1 2.4.8 0 1.4-.1 1.9-.4.4-.3.6-.7.6-1.3Z">
+								</path>
+								<path class="logo-fill" fill-rule="evenodd"
+									d="M34.2 7.1h3.2v7.4L44.8 7h4.4l-6.7 6.7 7 9.9h-3.9L40.3 16l-3 2.8v4.8h-3V7ZM13.8 0h-6v7.1h6V4H21c2 0 3.4.7 4.4 2 1 1.2 1.5 3 1.5 5.4v1.2c0 2.4-.6 4.1-1.6 5.4-1 1.2-2.4 1.8-4.3 1.8h-1.7v4H21c2 0 3.9-.5 5.5-1.5 1.7-1 3-2.2 3.8-4a11 11 0 0 0 1.4-5.8v-1.1c0-2.2-.4-4.2-1.4-5.9-.9-1.7-2.2-3-3.8-4A9.3 9.3 0 0 0 21 0h-7.2Z"
+									clip-rule="evenodd"></path>
+							</g>
+							<defs>
+								<clipPath id="logo">
+									<path fill="#fff" d="M0 0h50v23.7H0z"></path>
+								</clipPath>
+							</defs>
+						</svg>
+      </a>
+     </div>
+     <nav class="nav">
+      <ul class="no-list c-sb">
+
+       <li class="current-menu-item"><a href="https://newpro.isdk.pro/projects">Projects</a></li>
+       <li><a href="https://newpro.isdk.pro/contucts">Contucts</a></li>
+       <li>
+        <a href="#" class="descr down-border">About</a>
+       </li>
+       <li>
+        <a href="#" class="descr down-border">Services</a>
+       </li>
+       <li>
+        <a href="#" class="descr down-border">Projects</a>
+       </li>
+       <li>
+        <a href="#" class="descr down-border">Contact</a>
+       </li>
+      </ul>
+     </nav>
+     <div class="nav-controls c-s">
+      <div class="lang-toggle">
+       <button class="curent-language descr down-border" aria-label="Change-language">en</button>
+      </div>
+      <button class="open-nav c-c" aria-label="Open menu">
+						<div class="menu-icon">
+							<div class="top-line"></div>
+							<div class="down-line"></div>
+						</div>
+					</button>
+     </div>
+    </div>
+   </div>
+
+   <div class="menu-panel">
+
+    <div class="menu">
+
+     <nav class="nav-panel">
+      <ul>
+       <li>
+        <a href="#">About</a>
+        <ul>
+         <li><a href="#">Company</a></li>
+         <li><a href="#">Careers</a></li>
+         <li><a href="#">Contact</a></li>
+        </ul>
+       </li>
+       <li>
+        <a href="#">Services</a>
+        <ul>
+         <li><a href="#">e-Commerce</a></li>
+         <li><a href="#">Digital Transformation</a></li>
+         <li><a href="#">Custom Development</a></li>
+        </ul>
+       </li>
+       <li>
+        <a href="#">Projects</a>
+        <ul>
+         <li><a href="#">Customers and Partners</a></li>
+         <li><a href="#">Cases</a></li>
+        </ul>
+       </li>
+       <li>
+        <a href="#">Blog</a>
+        <ul>
+         <li><a href="#">Development</a></li>
+         <li><a href="#">Marketing</a></li>
+        </ul>
+       </li>
+      </ul>
+     </nav>
+
+     <div class="header-places">
+      <div class="places">
+       <div class="place-el">
+        <p class="m-descr">Germany</p>
+        <p class="descr">Berlin</p>
+        <a href="tel:49 15233977274" class="descr down-border" title="Call to 49 15233977274">49
+								15233977274</a>
+        <div class="place-el"></div>
+       </div>
+
+       <div class="place-el">
+        <p class="m-descr">Baltic</p>
+        <p class="descr">Riga, Latvia</p>
+        <a href="tel:371 27869927" class="descr down-border" title="Call to 371 27869927">371
+								27869927</a>
+        <div class="place-el"></div>
+       </div>
+
+       <div class="place-el">
+        <p class="m-descr">Russia</p>
+        <p class="descr">Moscow</p>
+        <a href="tel:7 495 7204026" class="descr down-border" title="Call to 7 495 7204026">7 495
+								7204026</a>
+        <div class="place-el"></div>
+       </div>
+
+       <div class="place-el">
+        <p class="m-descr">Benelux</p>
+        <p class="descr">Antwerp, Belgium</p>
+        <a href="tel:32 43460180" class="descr down-border" title="Call to 32 43460180">32
+								43460180</a>
+        <div class="place-el"></div>
+       </div>
+
+       <div class="place-el">
+        <p class="m-descr">USA</p>
+        <p class="descr">Austin, TX</p>
+        <a href="tel:49 15233977274" class="descr down-border" title="Call to 49 15233977274">49
+								15233977274</a>
+        <div class="place-el"></div>
+       </div>
+
+      </div>
+     </div>
+     <div class="header-contacts">
+      <div class="contact-mail">
+       <a href="mailto:info@isdk.pro" class="title-m down-border" title="Write a letter to info@isdk.pro">info@isdk.pro</a>
+      </div>
+      <div class="contacts-social">
+       <ul class="no-list c-s">
+        <li>
+         <a href="#" target="_blank" rel="nofollow noopener" class="descr down-border" title="LinkedIn | Opens in a new tab">LinkedIn</a>
+        </li>
+        <li>
+         <a href="#" target="_blank" rel="nofollow noopener" class="descr down-border" title="Medium | Opens in a new tab">Medium</a>
+        </li>
+        <li>
+         <a href="#" target="_blank" rel="nofollow noopener" class="descr down-border" title="Facebook | Opens in a new tab">Facebook</a>
+        </li>
+       </ul>
+      </div>
+
+      <button class="contact-btn slide-hover">
+						<div class="button-icon icon icon-m c-c">
+							<img class="lazy" data-src="./img/chat-icon.svg" alt="Chat icon">
+						</div>
+						<span class="m-descr m-0">Contact via pop-up form</span>
+						<div class="adv-icon icon icon-sm">
+							<svg fill="none" viewBox="0 0 24 24">
+								<path
+									d="M19 6c0-.6-.4-1-1-1H9a1 1 0 1 0 0 2h8v8a1 1 0 1 0 2 0V6ZM5.7 19.7l13-13-1.4-1.4-13 13 1.4 1.4Z">
+								</path>
+							</svg>
+						</div>
+					</button>
+     </div>
+
+    </div>
+   </div>
+  </header>
+
+
+
+
+
+  <main class="main single-project">
+   <section class="hero">
+    <div class="container">
+     <div class="banner">
+      <div class="title-line">
+       <h1 class="m-0 title-x">
+        Cargobooking365 - Part of GSA Group
+       </h1>
+      </div>
+     </div>
+    </div>
+   </section>
+   <div class="sp-content" style="color: #3796F6;">
+    <div class="container">
+     <p class="sp-descr l-descr">Saas-platform by gsa groups</p>
+     <div class="sp-cover lazy-progress lazy-img">
+      <picture>
+       <source type="image/webp" data-srcset="./img/1projects/Cargobooking365-webp-1x.webp 1x, ./img/1projects/Cargobooking365-webp-2x.webp 2x">
+       <source type="image/jpeg" data-srcset="./img/1herbalife-bg-x1.jpg 1x, ./img/1herbalife-bg-x2.jpg 2x">
+       <img class="lazy" width="480" height="445" alt="herbalife" data-src="./img/1about@1x.png">
+      </picture>
+     </div>
+
+     <div class="sp-info">
+      <h2 class="info-title title-m m-0">Objectives</h2>
+      <p class="info-descr m-descr m-0">Digitalize interaction with existing customs to streamline communication and booking processes. Use an open SaaS-platform to attract new partners – both end customers of cargo services and airlines and their agents providing transportation services.</p>
+      <p class="info-about descr m-0">
+       Project stakeholders are a part of the GSA Group, which unites 60 cargo carriers globally.
+      </p>
+      <div class="sp-logo c-s">
+       <img class="lazy" data-src="./img/partners/cargobooking-logo.svg" alt="">
+      </div>
+     </div>
+     <div class="sp-cat">
+      <ul class="no-list category-list">
+       <li>
+        <a href="#" class="slide-hover descr"><span>All cases</span></a>
+       </li>
+       <li>
+        <a href="#" class="slide-hover descr"><span>Digital transformation</span></a>
+       </li>
+       <li>
+        <a href="#" class="slide-hover descr"><span>Custom development</span></a>
+       </li>
+      </ul>
+     </div>
+    </div>
+   </div>
+
+
+   <div class="article-content">
+    <div class="container">
+
+     <div class="separator">
+      <p class="m-descr">Challenges</p>
+     </div>
+
+     <div class="cols-content">
+      <h3 class="title-m">Background</h3>
+      <div class="content-col">
+       <ul>
+        <li>Quick rise of digitalization in the global economy and in the cargo industry in particular</li>
+        <li>Carriers and cargo companies who can seize new opportunities and implied technologies will get ahead of competitors.</li>
+        <li>Cargobooking365 spin-off has been launched as a response to modern industry’s challenges and aims to capture a share in a new niche of air cargo e-booking.</li>
+       </ul>
+      </div>
+     </div>
+
+     <div class="cols-content">
+      <h3 class="title-m">Air cargo industry challenges:</h3>
+      <div class="content-col">
+       <ul>
+        <li>In comparison to passengers e-booking, cargo booking is much more sophisticated.</li>
+        <li>Pricing depends on numerous factors such as route, airport terminal (in both points), cargo type, its transportation and storage characteristics, aircraft and its compartment dimensions, etc.
+        </li>
+        <li>Lack of modern and widely accepted electronic industry standards – interaction and data exchange are based on outdated CargoImp standard while the newer one CargoXML is still poorly used.</li>
+        <li>As a result, clients and airlines are used to manual calculations, this leads to significant delays and losses.</li>
+       </ul>
+      </div>
+     </div>
+
+     <div class="separator">
+      <p class="m-descr">Analysis</p>
+     </div>
+
+     <div class="cols-content">
+      <h3 class="title-m">Objectives</h3>
+      <div class="content-col">
+       <p>Foremost startup goals:</p>
+       <ul>
+        <li>Ensure company’s leading position and market share in e-booking solutions for the air cargo industry.
+        </li>
+        <li>Digitalize interaction with existing customs to streamline communication and booking processes.
+        </li>
+        <li>Use an open SaaS-platform to attract new partners – both end customers of cargo services and airlines and their agents providing transportation services.</li>
+       </ul>
+      </div>
+     </div>
+
+     <div class="cols-content">
+      <h3 class="title-m">Tasks</h3>
+      <div class="content-col">
+       <p>Tasks to fulfill the goals:</p>
+       <ul>
+        <li>Develop a platform that would bring together client companies, agents and airlines within the process of finding and selecting flights for air cargo transportation.</li>
+        <li>Develop a system for calculating the cost of transportation:</li>
+        <li>The algorithm should take into account many parameters – a flight route, cargo type and parameters, conditions of receiving and storing cargo in the dispatch and receipt terminals, board and compartments parameters of the aircraft operating the
+         flight.
+         <ul>
+          <li>Develop a platform that would bring together client companies, agents and airlines within the process of finding and selecting flights for air cargo transportation.</li>
+          <li>The calculation system should be implemented as a separate microservice capable of returning the calculation result to various clients who needs this data.</li>
+         </ul>
+        </li>
+        <li>Implement a module for storing and selecting flight schedules.</li>
+        <li>Automate business processes of flight selection and booking.</li>
+        <li>Minimize phone and email communication between the parties – client, agent and carrier – thus speed up the process of selecting and booking flights.</li>
+        <li>Implement an Air Waybills recognition module to reduce processing and generation time of major flight documents.</li>
+        <li>Integrate the system with the local ERP system (Dynamics CRM 365) to synchronize customer data, search queries and ongoing booking requests.</li>
+       </ul>
+      </div>
+     </div>
+
+     <div class="separator">
+      <p class="m-descr">Develop</p>
+     </div>
+
+     <div class="cols-content">
+      <h3 class="title-m">SaaS-platform architecture</h3>
+      <div class="content-col">
+       <p>The main feature of the system is that it uses SaaS model. This determines the choice of the solution tech stack. The system can be launched in the most suitable environment depending on the business goals – be it cloud solutions from Microsoft
+        Azure / Amazon AWS or private or virtual servers.</p>
+       <p>Functionally, the solution is composed of several modules:</p>
+       <ul>
+        <li>The heart of the system: search and calculation of the rates,</li>
+        <li>Schedules module – loading flight schedules and selecting specific flights,</li>
+        <li>Integration gateway to provide the exchange of key data with third-party systems:
+         <ul>
+          <li>A service for air waybill documents recognition,</li>
+          <li>Dynamics CRM 365 system,</li>
+          <li>Aviation data reference and information services on the Internet.</li>
+         </ul>
+        </li>
+       </ul>
+      </div>
+      <div class="notice m-descr">
+       <p>Architecture is based on cross-platform and open-source technologies. This makes it relatively easy to scale the system geographically, as well as when growing its performance. </p>
+      </div>
+     </div>
+
+
+     <figure class="wp-block-image size-full"><img loading="lazy" width="901" height="454" src="https://newpro.isdk.pro/wp-content/uploads/2022/01/365-img.jpg" alt="" class="wp-image-182" srcset="https://newpro.isdk.pro/wp-content/uploads/2022/01/365-img.jpg 901w, https://newpro.isdk.pro/wp-content/uploads/2022/01/365-img-768x387.jpg 768w"
+       sizes="(max-width: 901px) 100vw, 901px"></figure>
+
+
+     <div class="cols-content">
+      <h3 class="title-m">Back-end</h3>
+      <div class="content-col">
+       <p>The backend is composed of a PostgreSQL database and a set of API services that implement the application logic:</p>
+       <ul>
+        <li>API service for the front-end,</li>
+        <li>Calculator API service,</li>
+        <li>API service for OCR recognition of air waybills.</li>
+       </ul>
+      </div>
+     </div>
+
+     <div class="cols-content low-margin">
+      <h3 class="title-m"></h3>
+      <div class="content-col">
+       <p>All services are hosted in the Azure cloud as an AppService. For the development we used a modular open-source software development platform .Net Core. The ORM tool is EF Core, which provides a high level of abstraction when working with databases.</p>
+       <p>Within the development process, the CQRS design pattern was used. This pattern allows to operate with such categories as commands and queries.</p>
+       <p>With its multi-tenant architecture, the system is designed to be used by several clients at the same time. Each tenant may have its own settings and its own UI.</p>
+       <p>The calculator API service is the “brain” not only for the cargobooking365 portal, but also for the functional modules launched on the Dynamics CRM 365 side. The calculator service is like a core of the two systems and is responsible for the selection
+        of transportation routes based on the input request parameters. The service does not only filter data linearly, but also performs complex manipulations to deploy group routes, check cargo dimensions against the dimensions of airliners, select
+        tariffs and air taxes, and much more.</p>
+       <p>Technologies and services used:</p>
+       <ul>
+        <li>.Net Core</li>
+        <li>EF Core</li>
+        <li>CQRS</li>
+        <li>PostgreSQL</li>
+        <li>Cognitive services Microsoft Azure (object characters recognition)</li>
+        <li>API services for the SaaS-platform</li>
+       </ul>
+      </div>
+      <div class="notice m-descr">
+       <p>With its multi-tenant architecture, the system is designed to be used by several clients at the same time. Each tenant may have its own settings and its own UI.</p>
+      </div>
+     </div>
+
+     <div class="content-slider">
+      <div class="slider-content">
+       <div class="slider-inner" style="direction: ltr; cursor: -webkit-grab;">
+        <div style="width: 5312px; transition: all 450ms ease-out 0s; transform: translate3d(0px, 0px, 0px);">
+         <div style="float: left; width: 25%;">
+          <div class="slide">
+           <div class="slider-img lazy-img">
+            <picture>
+             <source type="image/webp" srcset="https://newpro.isdk.pro/wp-content/uploads/2022/01/air-img-01.webp">
+             <source type="image/jpeg" srcset="https://newpro.isdk.pro/wp-content/uploads/2022/01/air-img-01.jpg">
+             <img class="loaded anim-fade" width="480" height="445" alt="Case Scrinshot" data-ll-status="loaded" src="https://newpro.isdk.pro/wp-content/uploads/2022/01/air-img-01.jpg">
+            </picture>
+           </div>
+          </div>
+         </div>
+         <div style="float: left; width: 25%;">
+          <div class="slide">
+           <div class="slider-img lazy-img">
+            <picture>
+             <source type="image/webp" srcset="https://newpro.isdk.pro/wp-content/uploads/2022/01/air-img-02.webp">
+             <source type="image/jpeg" srcset="https://newpro.isdk.pro/wp-content/uploads/2022/01/air-img-02.jpg">
+             <img class="loaded anim-fade" width="480" height="445" alt="Case Scrinshot" data-ll-status="loaded" src="https://newpro.isdk.pro/wp-content/uploads/2022/01/air-img-02.jpg">
+            </picture>
+           </div>
+          </div>
+         </div>
+         <div style="float: left; width: 25%;">
+          <div class="slide">
+           <div class="slider-img lazy-progress lazy-img">
+            <picture>
+             <source type="image/webp" data-srcset="https://newpro.isdk.pro/wp-content/uploads/2022/01/air-img-03.webp">
+             <source type="image/jpeg" data-srcset="https://newpro.isdk.pro/wp-content/uploads/2022/01/air-img-03.jpg">
+             <img class="lazy" width="480" height="445" alt="Case Scrinshot" data-src="https://newpro.isdk.pro/wp-content/uploads/2022/01/air-img-03.jpg">
+            </picture>
+           </div>
+          </div>
+         </div>
+         <div style="float: left; width: 25%;">
+          <div class="slide">
+           <div class="slider-img lazy-progress lazy-img">
+            <picture>
+             <source type="image/webp" data-srcset="https://newpro.isdk.pro/wp-content/uploads/2022/01/air-img-03-1.webp">
+             <source type="image/jpeg" data-srcset="https://newpro.isdk.pro/wp-content/uploads/2022/01/air-img-03-1.jpg">
+             <img class="lazy" width="480" height="445" alt="Case Scrinshot" data-src="https://newpro.isdk.pro/wp-content/uploads/2022/01/air-img-03-1.jpg">
+            </picture>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="slider-buttons c-c">
+       <button class="slider-btn slider-prev" disabled="">
+								<div class="icon-arrow c-s color-gray arrow-xl">
+									<div class="icon-line">
+									</div>
+									<div class="angle c-c">
+										<svg fill="none" viewBox="0 0 9 16">
+											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+												d="M1.5 1.5 8 8.3l-6.5 6.2">
+											</path>
+										</svg>
+									</div>
+								</div>
+							</button>
+       <button class="slider-btn slider-next">
+								<div class="icon-arrow c-s color-gray arrow-xl">
+									<div class="icon-line">
+									</div>
+									<div class="angle c-c">
+										<svg fill="none" viewBox="0 0 9 16">
+											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+												d="M1.5 1.5 8 8.3l-6.5 6.2">
+											</path>
+										</svg>
+									</div>
+								</div>
+							</button>
+      </div>
+     </div>
+
+     <div class="cols-content">
+      <h3 class="title-m">Front-end</h3>
+      <div class="content-col">
+       <p>The frontend is implemented in the React framework using typescript. React allows to create encapsulated components with their own state and then combine them into complex user interfaces. TypeScript is a static typing tool; it allows to find most
+        of the errors before the code is executed.
+       </p>
+       <p>For more understandable and simple integration between the client and the server, the server-side type generation is used. The code generator can generate typescript typing based on .net classes.
+       </p>
+       <p>Some of the front-end tools:</p>
+       <ul>
+        <li>Redux</li>
+        <li>Redux Toolkit</li>
+        <li>Formik</li>
+        <li>Yup</li>
+        <li>Axios</li>
+        <li>react-i18next</li>
+        <li>react-bootstrap</li>
+       </ul>
+       <p>The frontend also has a module that allows to implement multi-tenant support. By specifying an ID of a certain tenant during assembly, it then receives the client’s bundles with styles, images and texts inherent only to him.</p>
+       <p>Technologies and services used:</p>
+       <ul>
+        <li>React.js</li>
+        <li>react-bootstrap</li>
+        <li>Formik</li>
+        <li>NGINX</li>
+       </ul>
+      </div>
+     </div>
+
+     <div class="separator">
+      <p class="m-descr">Result</p>
+     </div>
+
+     <div class="cols-content">
+      <h3 class="title-m">Project result</h3>
+      <div class="content-col">
+       <p>The project was launched in spring of 2020.</p>
+       <p>The first tenant operator using the SaaS model was already registered on the platform. It is FFCargo Services company, which provides services for selection and fulfillment of air cargo transportation in the Eastern Europe and the Middle East.</p>
+
+       <a href="#" class="case-btn slide-hover">
+        <div class="button-icon icon icon-m c-c">
+         <img class="loaded anim-fade" alt="Chat icon" data-ll-status="loaded" src="./img/arrow-web.svg">
+        </div>
+        <span class="m-descr m-0">https://cargobooking365.com</span>
+        <div class="adv-icon icon icon-sm">
+         <svg fill="none" viewBox="0 0 24 24">
+										<path d="M19 6c0-.6-.4-1-1-1H9a1 1 0 1 0 0 2h8v8a1 1 0 1 0 2 0V6ZM5.7 19.7l13-13-1.4-1.4-13 13 1.4 1.4Z">
+										</path>
+									</svg>
+        </div>
+       </a>
+      </div>
+      <div class="notice m-descr">
+       <p>The platform operator is currently negotiating with some cargo airlines a possibility to connect to the platform and start working there.</p>
+      </div>
+     </div>
+
+
+    </div>
+   </div>
+
+
+
+   <section class="case-alternate">
+    <div class="container">
+     <div class="case-title">
+      <div class="title-line iconed">
+       <div class="title-icon case-arrow">
+        <svg width="124" height="186" viewBox="0 0 124 186" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M31 0L0 31L62 93L0 155L31 186L124 93L31 0Z" fill="url(#paint0_linear_225_2428)" />
+									<defs>
+										<linearGradient id="paint0_linear_225_2428" x1="83.5304" y1="-1.06865e-06" x2="64.0155" y2="272.586"
+											gradientUnits="userSpaceOnUse">
+											<stop offset="0.213542" stop-color="#EF7800" />
+											<stop offset="1" stop-color="white" />
+										</linearGradient>
+									</defs>
+								</svg>
+
+       </div>
+       <h2 class="title-l">Similar projects</h2>
+      </div>
+     </div>
+    </div>
+    <div class="cases">
+
+     <div class="container">
+
+
+
+      <div class="cases-list">
+
+       <a href="#" class="case" style="color: #3796F6;">
+
+        <div class=" case-wrapper">
+
+         <div class="case-descr">
+          <div class="case-icon c-s">
+           <img class="lazy" data-src="./img/365-icon.svg" alt="">
+          </div>
+
+          <h3 class="title-m m-0">Cargobooking365 —<br /> Part of GSA Group
+          </h3>
+
+          <div class="link-name m-descr">
+           <span>Explore case</span>
+           <div class="icon-arrow c-s color-light arrow-l">
+            <div class="icon-line">
+            </div>
+            <div class="angle c-c">
+             <svg fill="none" viewBox="0 0 9 16">
+										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+											d="M1.5 1.5 8 8.3l-6.5 6.2" />
+									</svg>
+             </svg>
+            </div>
+           </div>
+          </div>
+
+          <div class="case-img lazy-progress s-s lazy-img">
+           <img class="lazy" data-src="./img/365-img.jpg" alt="Cargobooking365 — Part of GSA Group UI screenshot">
+          </div>
+
+         </div>
+
+
+
+
+        </div>
+       </a>
+
+
+       <a href="#" class="case" style="color: #FF4612;">
+
+        <div class=" case-wrapper">
+
+         <div class="case-descr">
+          <div class="case-icon c-s">
+           <img class="lazy" data-src="./img/harman-icon.svg" alt="">
+          </div>
+
+          <h3 class="title-m m-0">Marketing and eCommerce Setup – Harman & JBL
+          </h3>
+
+          <div class="link-name m-descr">
+           <span>Explore case</span>
+           <div class="icon-arrow c-s color-light arrow-l">
+            <div class="icon-line ">
+            </div>
+            <div class="angle c-c">
+             <svg fill="none" viewBox="0 0 9 16">
+										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+											d="M1.5 1.5 8 8.3l-6.5 6.2" />
+									</svg>
+             </svg>
+            </div>
+           </div>
+          </div>
+
+
+          <div class="case-img lazy-progress s-s lazy-img">
+           <img class="lazy" data-src="./img/jbl-case.jpg" alt="Marketing and eCommerce Setup – Harman & JBL UI screenshot">
+          </div>
+         </div>
+
+
+        </div>
+       </a>
+
+
+
+
+
+      </div>
+      <div class="see-all c-e">
+       <a href="#" class="read-more m-descr slide-hover c-s">
+        <span>Browse all cases</span>
+        <div class="icon-arrow color-gray c-e">
+         <div class="icon-line">
+         </div>
+         <div class="angle c-c">
+          <svg fill="none" viewBox="0 0 5 9">
+							<path stroke-linecap="round" stroke-linejoin="round" d="m1 1 3 3.5L1 8"></path>
+						</svg>
+         </div>
+        </div>
+       </a>
+      </div>
+
+     </div>
+
+    </div>
+
+    <div class="button-block">
+     <div class="container">
+      <a href="#" class="main-btn slide-hover c-c">
+       <div class="button-icon icon icon-m c-c">
+        <img class="lazy" data-src="./img/chat-icon.svg" alt="Chat icon">
+       </div>
+       <span class="title-m">Get in touch to discuss your case</span>
+      </a>
+     </div>
+    </div>
+
+   </section>
+
+
+
+
+  </main>
+
+
+  <footer class="footer">
+   <div class="container">
+    <div class="footer-title">
+     <div class="title-line iconed">
+
+      <div class="title-icon send">
+       <svg width="270" height="270" viewBox="0 0 270 270" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M18 124.322C18 124.322 104.98 152.16 116.921 156.935C124.555 172.205 155.903 253.643 155.903 253.643L212.049 59L18 124.322Z"
+								fill="url(#paint0_linear_766_8449)" />
+							<defs>
+								<linearGradient id="paint0_linear_766_8449" x1="81.3314" y1="59" x2="95.0262"
+									y2="345.058" gradientUnits="userSpaceOnUse">
+									<stop offset="0.213542" stop-color="#EF7800" />
+									<stop offset="1" stop-color="white" />
+								</linearGradient>
+							</defs>
+						</svg>
+      </div>
+      <h2 class="title-l">Let’s get started</h2>
+     </div>
+    </div>
+
+    <div class="contact-line">
+     <div class="contact-mail">
+      <a href="mailto:info@isdk.pro" class="title-m down-border" title="Write a letter to info@isdk.pro">info@isdk.pro</a>
+     </div>
+
+
+     <button class="contact-btn slide-hover">
+					<div class="button-icon icon icon-m c-c">
+						<img class="lazy" data-src="./img/chat-icon.svg" alt="Chat icon">
+					</div>
+					<span class="m-descr m-0">Contact via pop-up form</span>
+					<div class="adv-icon icon icon-sm">
+						<svg fill="none" viewBox="0 0 24 24">
+							<path
+								d="M19 6c0-.6-.4-1-1-1H9a1 1 0 1 0 0 2h8v8a1 1 0 1 0 2 0V6ZM5.7 19.7l13-13-1.4-1.4-13 13 1.4 1.4Z" />
+						</svg>
+					</div>
+				</button>
+    </div>
+
+    <div class="footer-links">
+
+     <div class="social">
+
+      <div class="footer-logo c-s">
+       <a href="#" class="site-logo c-s" aria-label="Go to main">
+        <svg fill="none" viewBox="0 0 50 24">
+								<g clip-path="url(#a)">
+									<path fill="#EF7800"
+										d="M0 0h5.1v23.7H0V0Zm14.8 19.5c0-.5-.2-1-.6-1.3l-2.4-1c-1.1-.3-2-.7-2.7-1-1.8-1-2.7-2.2-2.7-3.7 0-.8.2-1.6.7-2.2.5-.6 1.2-1.1 2.1-1.5a8.3 8.3 0 0 1 6 0c1 .5 1.7 1 2.2 1.7.5.7.7 1.5.7 2.4h-3.3a2 2 0 0 0-.7-1.6 3 3 0 0 0-1.9-.6c-.8 0-1.4.2-1.9.5-.4.3-.6.8-.6 1.3s.2.9.7 1.2c.6.3 1.3.7 2.3 1 2 .5 3.3 1.1 4.1 1.9.9.8 1.3 1.8 1.3 3s-.5 2.2-1.6 3c-1 .7-2.4 1-4.2 1-1.2 0-2.3-.1-3.3-.5-1-.5-1.8-1-2.3-1.8-.5-.7-.8-1.6-.8-2.5h3.3c0 1.6 1 2.4 3.1 2.4.8 0 1.4-.1 1.9-.4.4-.3.6-.7.6-1.3Z" />
+									<path fill="#333" fill-rule="evenodd"
+										d="M34.2 7.1h3.2v7.4L44.8 7h4.4l-6.7 6.7 7 9.9h-3.9L40.3 16l-3 2.8v4.8h-3V7ZM13.8 0h-6v7.1h6V4H21c2 0 3.4.7 4.4 2 1 1.2 1.5 3 1.5 5.4v1.2c0 2.4-.6 4.1-1.6 5.4-1 1.2-2.4 1.8-4.3 1.8h-1.7v4H21c2 0 3.9-.5 5.5-1.5 1.7-1 3-2.2 3.8-4a11 11 0 0 0 1.4-5.8v-1.1c0-2.2-.4-4.2-1.4-5.9-.9-1.7-2.2-3-3.8-4A9.3 9.3 0 0 0 21 0h-7.2Z"
+										clip-rule="evenodd" />
+								</g>
+								<defs>
+									<clipPath id="a">
+										<path fill="#fff" d="M0 0h50v23.7H0z" />
+									</clipPath>
+								</defs>
+							</svg>
+       </a>
+      </div>
+
+      <ul class="no-list">
+       <li>
+        <a href="#" target="_blank" rel="nofollow noopener" class="m-descr down-border" title="LinkedIn | Opens in a new tab">LinkedIn</a>
+       </li>
+       <li>
+        <a href="#" target="_blank" rel="nofollow noopener" class="m-descr down-border" title="Medium | Opens in a new tab">Medium</a>
+       </li>
+       <li>
+        <a href="#" target="_blank" rel="nofollow noopener" class="m-descr down-border" title="Facebook | Opens in a new tab">Facebook</a>
+       </li>
+      </ul>
+     </div>
+
+
+     <div class="places">
+      <div class="place-el">
+       <p class="title-m">Germany</p>
+       <p class="m-descr">Berlin</p>
+       <a href="tel:49 15233977274" class="m-descr down-border" title="Call to 49 15233977274">49
+							15233977274</a>
+       <div class="place-el"></div>
+      </div>
+
+      <div class="place-el">
+       <p class="title-m">Baltic</p>
+       <p class="m-descr">Riga, Latvia</p>
+       <a href="tel:371 27869927" class="m-descr down-border" title="Call to 371 27869927">371
+							27869927</a>
+       <div class="place-el"></div>
+      </div>
+
+      <div class="place-el">
+       <p class="title-m">Russia</p>
+       <p class="m-descr">Moscow</p>
+       <a href="tel:7 495 7204026" class="m-descr down-border" title="Call to 7 495 7204026">7 495
+							7204026</a>
+       <div class="place-el"></div>
+      </div>
+
+      <div class="place-el">
+       <p class="title-m">Benelux</p>
+       <p class="m-descr">Antwerp, Belgium</p>
+       <a href="tel:32 43460180" class="m-descr down-border" title="Call to 32 43460180">32
+							43460180</a>
+       <div class="place-el"></div>
+      </div>
+
+      <div class="place-el">
+       <p class="title-m">USA</p>
+       <p class="m-descr">Austin, TX</p>
+       <a href="tel:49 15233977274" class="m-descr down-border" title="Call to 49 15233977274">49
+							15233977274</a>
+       <div class="place-el"></div>
+      </div>
+
+     </div>
+
+    </div>
+
+
+
+    <div class="footer-info">
+     <span class="copyright descr">ISDK ©2010-2020, All rights reserved.</span>
+     <ul class="footer-doc no-list">
+      <li>
+       <a href="#" class="descr inline-link" title="Cookies">Cookies</a>
+      </li>
+      <li>
+       <a href="#" class="descr inline-link" title="Privacy policy">Privacy policy</a>
+      </li>
+
+     </ul>
+    </div>
+   </div>
+
+
+
+  </footer>
+
+ </body>
+ <script src="./js/app.js"></script>
+
+</html>
+
+</html>

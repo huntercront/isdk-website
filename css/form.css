@@ -1,0 +1,290 @@
+.screen-reader-response p,
+.screen-reader-response ul {
+    padding: 0;
+    margin: 0;
+}
+
+.form-row {
+    display: grid;
+    align-items: start;
+}
+
+.form-row.cols-2 {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1.875rem;
+}
+
+.wpcf7-response-output {
+    display: none;
+}
+
+.wpcf7-not-valid-tip {
+    color: #EB5757;
+    font-size: 0.75rem;
+    line-height: 1.2;
+    position: absolute;
+    top: 100%;
+    padding-top: 0.25rem
+}
+
+.input,
+.wpcf7-form-control-wrap {
+    display: block;
+    position: relative;
+    z-index: 100;
+}
+
+.input input,
+.textarea textarea {
+    width: 100%;
+    padding: 1.25rem;
+    font-size: 1.125rem;
+    color: var(--black-100);
+    border: 1px solid;
+    border-color: var(--gray-25);
+    transition: var(--transition-fast) ease-in;
+    transition-property: border-color;
+}
+
+.input input.wpcf7-not-valid,
+.textarea textarea.wpcf7-not-valid {
+    border-color: #EB5757;
+}
+
+.input input:hover,
+.textarea textarea:hover {
+    border-color: var(--gray-60);
+}
+
+.input input:focus,
+.textarea textarea:focus {
+    border-color: var(--main);
+    outline: none
+}
+
+.textarea textarea {
+    resize: none;
+    height: 8rem;
+    display: block;
+}
+
+.drop-down.input input {
+    padding-right: 2.5rem;
+    cursor: pointer;
+    text-overflow: ellipsis;
+    user-select: none;
+}
+
+.drop-down.input {
+    z-index: 1;
+}
+
+.drop-icon {
+    position: absolute;
+    width: 1.25rem;
+    height: 1.25rem;
+    top: 50%;
+    right: 1rem;
+    transform: translate(0, -50%);
+    pointer-events: none;
+    z-index: 110;
+}
+
+.drop-icon svg {
+    transition: var(--transition-fast) ease-in;
+    transition-property: transform;
+}
+
+.event-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: none;
+    z-index: 110;
+}
+
+.event-overlay.show {
+    display: block;
+}
+
+.drop-down .values {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    background: var(--white);
+    border: 1px solid var(--gray-25);
+    transform: translate(0, 10px);
+    transition: var(--transition-fast) ease-in;
+    visibility: hidden;
+    opacity: 0;
+    transition-property: transform, visibility, opacity;
+    pointer-events: none;
+}
+
+.drop-down.input.drop-down {
+    z-index: 120;
+}
+
+.drop-down.value-show .values {
+    transform: translate(0, 0);
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+}
+
+.drop-down.value-show .drop-icon svg {
+    transform: rotate(-180deg);
+}
+
+.drop-down .values .value {
+    padding: 0.5rem 0.75rem;
+    transition: var(--transition-fast) ease-in;
+    cursor: pointer;
+    transition-property: background;
+    user-select: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+    background: transparent;
+    border: none;
+    color: var(--black-100);
+}
+
+.drop-down .values .value:hover,
+.drop-down .values .value:focus {
+    background: #FFF4EA;
+}
+
+.drop-down .values .value.selected,
+.drop-down .values .value.selected:hover {
+    background: #FCE4CC;
+}
+
+.input input::placeholder,
+.textarea textarea::placeholder {
+    color: var(--gray-60)
+}
+
+.form-row+.form-row {
+    margin-top: 1.875rem;
+}
+
+.sent-msg {
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 170;
+    user-select: none;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background: var(--white);
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(0, 10%);
+    transition: var(--transition-normal);
+    transition-property: opacity, visibility, transform;
+}
+
+.form-submited .sent-msg {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0, 0%);
+    pointer-events: all;
+}
+
+.sent-icon {
+    width: 4rem;
+    height: 4rem;
+}
+
+.sent-text {
+    font-size: 1.625rem;
+    max-width: 20rem;
+    text-align: center;
+    line-height: 1.2;
+    color: var(--main);
+    margin-top: 2rem;
+}
+
+.form-inner {
+    position: relative;
+}
+
+.icon-check {
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+    transition: var(--transition-normal) 350ms;
+    transition-property: stroke-dashoffset;
+}
+
+.form-submited .icon-check {
+    stroke-dashoffset: 60;
+}
+
+.submit-btn {
+    padding: 1.5rem;
+    transition: var(--transition-normal);
+    transition-property: color, background, border;
+    font-size: 1.125rem;
+    border: 1px solid var(--gray-25);
+    background: transparent;
+    color: var(--black-100);
+    position: relative;
+}
+
+.submit-info {
+    text-align: center;
+    color: var(--gray-75);
+    margin-top: 1.25rem;
+}
+
+.submit-btn:disabled,
+.submit-btn:disabled:hover {
+    background: var(--gray-15);
+    color: var(--gray-40);
+    border: 1px solid var(--gray-15);
+}
+
+.with-hover {
+    position: relative;
+    overflow: hidden;
+}
+
+.wpcf7-spinner {
+    display: block;
+    visibility: visible;
+    border-radius: 0;
+    background: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0;
+    transform: translate(-100%, 0);
+    background: var(--main);
+    transition: var(--transition-normal);
+    transition-property: transform, opacity;
+    margin: 0;
+}
+
+.wpcf7-spinner::before {
+    display: none;
+}
+
+.submit-btn:hover {
+    color: var(--white);
+    border: 1px solid transparent;
+}
+
+.submit-btn:not(:disabled):hover~.wpcf7-spinner {
+    transform: translate(0, 0);
+    opacity: 1;
+}

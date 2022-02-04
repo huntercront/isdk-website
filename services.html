@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/core.css">
+  <link rel="stylesheet" href="./css/service-page.css" media="print" async onload="this.media='all'">
+  <noscript>
+		<link rel="stylesheet" href="./css/service-page.css">
+	</noscript>
+ </head>
+
+ <body>
+
+  <header class="header">
+   <div class="container">
+    <div class="nav-content c-sb">
+     <div class="header-logo">
+      <a href="#" class="site-logo c-s" aria-label="Go to main">
+       <svg fill="none" viewBox="0 0 50 24">
+							<g clip-path="url(#logo)">
+								<path fill="#EF7800"
+									d="M0 0h5.1v23.7H0V0Zm14.8 19.5c0-.5-.2-1-.6-1.3l-2.4-1c-1.1-.3-2-.7-2.7-1-1.8-1-2.7-2.2-2.7-3.7 0-.8.2-1.6.7-2.2.5-.6 1.2-1.1 2.1-1.5a8.3 8.3 0 0 1 6 0c1 .5 1.7 1 2.2 1.7.5.7.7 1.5.7 2.4h-3.3a2 2 0 0 0-.7-1.6 3 3 0 0 0-1.9-.6c-.8 0-1.4.2-1.9.5-.4.3-.6.8-.6 1.3s.2.9.7 1.2c.6.3 1.3.7 2.3 1 2 .5 3.3 1.1 4.1 1.9.9.8 1.3 1.8 1.3 3s-.5 2.2-1.6 3c-1 .7-2.4 1-4.2 1-1.2 0-2.3-.1-3.3-.5-1-.5-1.8-1-2.3-1.8-.5-.7-.8-1.6-.8-2.5h3.3c0 1.6 1 2.4 3.1 2.4.8 0 1.4-.1 1.9-.4.4-.3.6-.7.6-1.3Z">
+								</path>
+								<path class="logo-fill" fill-rule="evenodd"
+									d="M34.2 7.1h3.2v7.4L44.8 7h4.4l-6.7 6.7 7 9.9h-3.9L40.3 16l-3 2.8v4.8h-3V7ZM13.8 0h-6v7.1h6V4H21c2 0 3.4.7 4.4 2 1 1.2 1.5 3 1.5 5.4v1.2c0 2.4-.6 4.1-1.6 5.4-1 1.2-2.4 1.8-4.3 1.8h-1.7v4H21c2 0 3.9-.5 5.5-1.5 1.7-1 3-2.2 3.8-4a11 11 0 0 0 1.4-5.8v-1.1c0-2.2-.4-4.2-1.4-5.9-.9-1.7-2.2-3-3.8-4A9.3 9.3 0 0 0 21 0h-7.2Z"
+									clip-rule="evenodd"></path>
+							</g>
+							<defs>
+								<clipPath id="logo">
+									<path fill="#fff" d="M0 0h50v23.7H0z"></path>
+								</clipPath>
+							</defs>
+						</svg>
+      </a>
+     </div>
+     <nav class="nav">
+      <ul class="no-list c-sb">
+       <li>
+        <a href="#" class="descr down-border">About</a>
+       </li>
+       <li>
+        <a href="#" class="descr down-border">Services</a>
+       </li>
+       <li>
+        <a href="#" class="descr down-border">Projects</a>
+       </li>
+       <li>
+        <a href="#" class="descr down-border">Contact</a>
+       </li>
+      </ul>
+     </nav>
+     <div class="nav-controls c-s">
+      <div class="lang-toggle">
+       <button class="curent-language descr down-border" aria-label="Change-language">en</button>
+      </div>
+      <button class="open-nav c-c" aria-label="Open menu">
+						<div class="menu-icon">
+							<div class="top-line"></div>
+							<div class="down-line"></div>
+						</div>
+					</button>
+     </div>
+    </div>
+   </div>
+
+   <div class="menu-panel">
+
+    <div class="menu">
+
+     <nav class="nav-panel">
+      <ul>
+       <li>
+        <a href="#">About</a>
+        <ul>
+         <li><a href="#">Company</a></li>
+         <li><a href="#">Careers</a></li>
+         <li><a href="#">Contact</a></li>
+        </ul>
+       </li>
+       <li>
+        <a href="#">Services</a>
+        <ul>
+         <li><a href="#">e-Commerce</a></li>
+         <li><a href="#">Digital Transformation</a></li>
+         <li><a href="#">Custom Development</a></li>
+        </ul>
+       </li>
+       <li>
+        <a href="#">Projects</a>
+        <ul>
+         <li><a href="#">Customers and Partners</a></li>
+         <li><a href="#">Cases</a></li>
+        </ul>
+       </li>
+       <li>
+        <a href="#">Blog</a>
+        <ul>
+         <li><a href="#">Development</a></li>
+         <li><a href="#">Marketing</a></li>
+        </ul>
+       </li>
+      </ul>
+     </nav>
+
+     <div class="header-places">
+      <div class="places">
+       <div class="place-el">
+        <p class="m-descr">Germany</p>
+        <p class="descr">Berlin</p>
+        <a href="tel:49 15233977274" class="descr down-border" title="Call to 49 15233977274">49
+								15233977274</a>
+        <div class="place-el"></div>
+       </div>
+
+       <div class="place-el">
+        <p class="m-descr">Baltic</p>
+        <p class="descr">Riga, Latvia</p>
+        <a href="tel:371 27869927" class="descr down-border" title="Call to 371 27869927">371
+								27869927</a>
+        <div class="place-el"></div>
+       </div>
+
+       <div class="place-el">
+        <p class="m-descr">Russia</p>
+        <p class="descr">Moscow</p>
+        <a href="tel:7 495 7204026" class="descr down-border" title="Call to 7 495 7204026">7 495
+								7204026</a>
+        <div class="place-el"></div>
+       </div>
+
+       <div class="place-el">
+        <p class="m-descr">Benelux</p>
+        <p class="descr">Antwerp, Belgium</p>
+        <a href="tel:32 43460180" class="descr down-border" title="Call to 32 43460180">32
+								43460180</a>
+        <div class="place-el"></div>
+       </div>
+
+       <div class="place-el">
+        <p class="m-descr">USA</p>
+        <p class="descr">Austin, TX</p>
+        <a href="tel:49 15233977274" class="descr down-border" title="Call to 49 15233977274">49
+								15233977274</a>
+        <div class="place-el"></div>
+       </div>
+
+      </div>
+     </div>
+     <div class="header-contacts">
+      <div class="contact-mail">
+       <a href="mailto:info@isdk.pro" class="title-m down-border" title="Write a letter to info@isdk.pro">info@isdk.pro</a>
+      </div>
+      <div class="contacts-social">
+       <ul class="no-list c-s">
+        <li>
+         <a href="#" target="_blank" rel="nofollow noopener" class="descr down-border" title="LinkedIn | Opens in a new tab">LinkedIn</a>
+        </li>
+        <li>
+         <a href="#" target="_blank" rel="nofollow noopener" class="descr down-border" title="Medium | Opens in a new tab">Medium</a>
+        </li>
+        <li>
+         <a href="#" target="_blank" rel="nofollow noopener" class="descr down-border" title="Facebook | Opens in a new tab">Facebook</a>
+        </li>
+       </ul>
+      </div>
+
+      <button class="contact-btn slide-hover">
+						<div class="button-icon icon icon-m c-c">
+							<img class="lazy" width="40" height="40" data-src="./img/chat-icon.svg" alt="Chat icon">
+						</div>
+						<span class="m-descr m-0">Contact via pop-up form</span>
+						<div class="adv-icon icon icon-sm">
+							<svg fill="none" viewBox="0 0 24 24" width="24" height="24">
+								<path
+									d="M19 6c0-.6-.4-1-1-1H9a1 1 0 1 0 0 2h8v8a1 1 0 1 0 2 0V6ZM5.7 19.7l13-13-1.4-1.4-13 13 1.4 1.4Z">
+								</path>
+							</svg>
+						</div>
+					</button>
+     </div>
+
+    </div>
+   </div>
+  </header>
+
+
+
+
+
+  <main class="main career-page">
+   <section class="hero">
+    <div class="container">
+     <div class="banner">
+      <div class="title-line iconed">
+       <div class="title-icon service-icon">
+        <svg width="233" height="320" viewBox="0 0 233 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M0.75 191.84L159.95 0.800232L137.207 128.16H232.313L73.1135 319.2L104.816 191.84H0.75Z"
+										fill="url(#paint0_linear_892_9456)" />
+									<defs>
+										<linearGradient id="paint0_linear_892_9456" x1="66.4181" y1="23.8555" x2="382.547" y2="209.858"
+											gradientUnits="userSpaceOnUse">
+											<stop offset="0.213542" stop-color="#EF7800" />
+											<stop offset="1" stop-color="white" />
+										</linearGradient>
+									</defs>
+								</svg>
+       </div>
+       <h1 class="m-0 title-xl">
+        Services
+       </h1>
+      </div>
+
+     </div>
+    </div>
+   </section>
+
+
+
+
+
+
+
+   <div class="case-cat service-cat">
+    <div class="container">
+     <ul class="no-list category-list">
+      <li>
+       <a href="#" class="slide-hover descr active"><span>e-Commerce and Operations</span></a>
+      </li>
+      <li>
+       <a href="#" class="slide-hover descr"><span>Digital Transformation</span></a>
+      </li>
+      <li>
+       <a href="#" class="slide-hover descr"><span>Custom Development</span></a>
+      </li>
+     </ul>
+    </div>
+   </div>
+
+   <section class="service-data about-content">
+    <div class="container">
+     <div class="service-info">
+      <h2 class="about-title">e-Commerce and Operations</h2>
+      <p class="text-xl m-0 w-75">Grow your retail business by introducing interconnected sales channels: web and mobile stores are a common trend now, chatbots and social media</p>
+
+      <div class="service-stats">
+       <div class="service-stat">
+        <p class="service-count numbers">248</p>
+        <p class="descr m-0">Solutions successfully developed and implemented</p>
+       </div>
+       <div class="service-stat">
+        <p class="service-count numbers">40</p>
+        <p class="descr m-0">Narrow specialists with extensive experience involved</p>
+       </div>
+       <div class="service-stat">
+        <p class="service-count numbers">40</p>
+        <p class="descr m-0">Narrow specialists with extensive experience involved</p>
+       </div>
+      </div>
+     </div>
+
+     <div class="service-streams">
+      <div class="service-stream">
+       <details class="route-block open" open>
+        <summary class="route-info">
+         <h4 class="title-m m-0">
+          e-Commerce launch and customisation
+         </h4>
+         <div class="icon-s icon c-c">
+          <svg class="x-icon" fill="none" viewBox="0 0 30 30">
+				<path d="M30 15.5H0M15.5 0v30"></path>
+			</svg>
+         </div>
+        </summary>
+        <div class="content" style="display: block;">
+
+         <div class="service-content">
+          <div class="service-text">
+           <p>Grow your retail business by introducing interconnected sales channels: web and mobile stores are a common trend now, chatbots and social media. Grow your retail business by introducing interconnected sales channels: web and mobile stores are
+            a common trend now, chatbots and social media.</p>
+
+           <ul>
+            <li>Quick rise of digitalization in the global economy</li>
+            <li>Carriers companies who can seize new opportunities</li>
+            <li>Cargobooking365 spin-off has been launched</li>
+
+           </ul>
+           <p>Grow your retail business by introducing interconnected sales channels: web and mobile stores are a common trend now, chatbots and social media. Grow your retail business by introducing interconnected sales channels: web and mobile stores are
+            a common trend now, chatbots and social media.</p>
+          </div>
+          <div class="service-example">
+           <div class="service-projects">
+            <a href="#" class="links down-border">Related projects</a>
+            <div class="service-project">
+             <a href="#" class="sp-link">
+              <div class="project-icon lazy-progress lazy-img">
+               <img class="lazy" width="60" height="60" data-src="./img/partners/filuet-logo.svg" alt="">
+              </div>
+              <p class="project-name m-0">Marketing and eCommerce Setup – Harman & JBL</p>
+             </a>
+            </div>
+            <div class="service-project">
+             <a href="#" class="sp-link">
+              <div class="project-icon lazy-progress lazy-img">
+               <img class="lazy" width="60" height="60" data-src="./img/partners/jbl-logo.svg" alt="">
+              </div>
+              <p class="project-name m-0">Marketing and eCommerce Setup – Harman & JBL</p>
+             </a>
+            </div>
+
+            <div class="service-project">
+             <a href="#" class="sp-link">
+              <div class="project-icon lazy-progress lazy-img">
+               <img class="lazy" width="60" height="60" data-src="./img/partners/harman-logo.svg" alt="">
+              </div>
+              <p class="project-name m-0">Marketing and eCommerce Setup – Harman & JBL</p>
+             </a>
+            </div>
+           </div>
+           <div class="services-articles">
+            <a href="#" class="links down-border">Blog posts</a>
+
+            <a href="#2345" class="sa-link">
+             <p class="descr m-0 sa-title">Corporate learning management systems. Harman case</p>
+             <div class="article-info">
+              <time class="article-time">13 / 01 / 2022</time>
+             </div>
+            </a>
+
+            <a href="#2345" class="sa-link">
+             <p class="descr m-0 sa-title">Corporate learning management systems. Harman case</p>
+             <div class="article-info">
+              <time class="article-time">13 / 01 / 2022</time>
+             </div>
+            </a>
+
+            <a href="#2345" class="sa-link">
+             <p class="descr m-0 sa-title">Corporate learning management systems. Harman case</p>
+             <div class="article-info">
+              <time class="article-time">13 / 01 / 2022</time>
+             </div>
+            </a>
+
+           </div>
+          </div>
+
+          <div class="service-link">
+           <a href="#" class="read-more read-small descr slide-hover c-s">
+            <span>Apply for this service</span>
+            <div class="icon-arrow color-gray c-e">
+             <div class="icon-line">
+             </div>
+             <div class="angle c-c">
+              <svg fill="none" viewBox="0 0 5 9">
+				<path stroke-linecap="round" stroke-linejoin="round" d="m1 1 3 3.5L1 8"></path>
+			</svg>
+             </div>
+            </div>
+           </a>
+          </div>
+         </div>
+        </div>
+      </div>
+
+      <div class="service-stream">
+       <details class="route-block">
+        <summary class="route-info">
+         <h4 class="title-m m-0">
+          e-Commerce launch and customisation
+         </h4>
+         <div class="icon-s icon c-c">
+          <svg class="x-icon" fill="none" viewBox="0 0 30 30">
+											<path d="M30 15.5H0M15.5 0v30"></path>
+										</svg>
+         </div>
+        </summary>
+        <div class="content" style="display: block;">
+
+         <div class="service-content">
+          <div class="service-text">
+           <p>Grow your retail business by introducing interconnected sales channels: web and mobile stores are a common trend now, chatbots and social media. Grow your retail business by introducing interconnected sales channels: web and mobile stores are
+            a common trend now, chatbots and social media.</p>
+
+           <ul>
+            <li>Quick rise of digitalization in the global economy</li>
+            <li>Carriers companies who can seize new opportunities</li>
+            <li>Cargobooking365 spin-off has been launched</li>
+
+           </ul>
+
+          </div>
+          <div class="service-example">
+           <div class="service-projects">
+            <div class="service-project">
+
+            </div>
+           </div>
+           <div class="service-articles">
+            <div class="service-article">
+
+            </div>
+           </div>
+          </div>
+
+          <div class="service-link">
+           <a href="#" class="read-more read-small descr slide-hover c-s">
+            <span>Apply for this service</span>
+            <div class="icon-arrow color-gray c-e">
+             <div class="icon-line">
+             </div>
+             <div class="angle c-c">
+              <svg fill="none" viewBox="0 0 5 9">
+															<path stroke-linecap="round" stroke-linejoin="round" d="m1 1 3 3.5L1 8"></path>
+														</svg>
+             </div>
+            </div>
+           </a>
+          </div>
+         </div>
+        </div>
+      </div>
+
+      </details>
+     </div>
+    </div>
+   </section>
+  </main>
+
+
+  <footer class="footer">
+   <div class="container">
+    <div class="footer-title">
+     <div class="title-line iconed">
+
+      <div class="title-icon send">
+       <svg width="270" height="270" viewBox="0 0 270 270" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M18 124.322C18 124.322 104.98 152.16 116.921 156.935C124.555 172.205 155.903 253.643 155.903 253.643L212.049 59L18 124.322Z"
+								fill="url(#paint0_linear_766_8449)" />
+							<defs>
+								<linearGradient id="paint0_linear_766_8449" x1="81.3314" y1="59" x2="95.0262"
+									y2="345.058" gradientUnits="userSpaceOnUse">
+									<stop offset="0.213542" stop-color="#EF7800" />
+									<stop offset="1" stop-color="white" />
+								</linearGradient>
+							</defs>
+						</svg>
+      </div>
+      <h2 class="title-l">Let’s get started</h2>
+     </div>
+    </div>
+
+    <div class="contact-line">
+     <div class="contact-mail">
+      <a href="mailto:info@isdk.pro" class="title-m down-border" title="Write a letter to info@isdk.pro">info@isdk.pro</a>
+     </div>
+
+
+     <button class="contact-btn slide-hover">
+					<div class="button-icon icon icon-m c-c">
+						<img class="lazy" width="40" height="40" data-src="./img/chat-icon.svg" alt="Chat icon">
+					</div>
+					<span class="m-descr m-0">Contact via pop-up form</span>
+					<div class="adv-icon icon icon-sm">
+						<svg fill="none" viewBox="0 0 24 24">
+							<path
+								d="M19 6c0-.6-.4-1-1-1H9a1 1 0 1 0 0 2h8v8a1 1 0 1 0 2 0V6ZM5.7 19.7l13-13-1.4-1.4-13 13 1.4 1.4Z" />
+						</svg>
+					</div>
+				</button>
+    </div>
+
+    <div class="footer-links">
+
+     <div class="social">
+
+      <div class="footer-logo c-s">
+       <a href="#" class="site-logo c-s" aria-label="Go to main">
+        <svg fill="none" viewBox="0 0 50 24">
+								<g clip-path="url(#a)">
+									<path fill="#EF7800"
+										d="M0 0h5.1v23.7H0V0Zm14.8 19.5c0-.5-.2-1-.6-1.3l-2.4-1c-1.1-.3-2-.7-2.7-1-1.8-1-2.7-2.2-2.7-3.7 0-.8.2-1.6.7-2.2.5-.6 1.2-1.1 2.1-1.5a8.3 8.3 0 0 1 6 0c1 .5 1.7 1 2.2 1.7.5.7.7 1.5.7 2.4h-3.3a2 2 0 0 0-.7-1.6 3 3 0 0 0-1.9-.6c-.8 0-1.4.2-1.9.5-.4.3-.6.8-.6 1.3s.2.9.7 1.2c.6.3 1.3.7 2.3 1 2 .5 3.3 1.1 4.1 1.9.9.8 1.3 1.8 1.3 3s-.5 2.2-1.6 3c-1 .7-2.4 1-4.2 1-1.2 0-2.3-.1-3.3-.5-1-.5-1.8-1-2.3-1.8-.5-.7-.8-1.6-.8-2.5h3.3c0 1.6 1 2.4 3.1 2.4.8 0 1.4-.1 1.9-.4.4-.3.6-.7.6-1.3Z" />
+									<path fill="#333" fill-rule="evenodd"
+										d="M34.2 7.1h3.2v7.4L44.8 7h4.4l-6.7 6.7 7 9.9h-3.9L40.3 16l-3 2.8v4.8h-3V7ZM13.8 0h-6v7.1h6V4H21c2 0 3.4.7 4.4 2 1 1.2 1.5 3 1.5 5.4v1.2c0 2.4-.6 4.1-1.6 5.4-1 1.2-2.4 1.8-4.3 1.8h-1.7v4H21c2 0 3.9-.5 5.5-1.5 1.7-1 3-2.2 3.8-4a11 11 0 0 0 1.4-5.8v-1.1c0-2.2-.4-4.2-1.4-5.9-.9-1.7-2.2-3-3.8-4A9.3 9.3 0 0 0 21 0h-7.2Z"
+										clip-rule="evenodd" />
+								</g>
+								<defs>
+									<clipPath id="a">
+										<path fill="#fff" d="M0 0h50v23.7H0z" />
+									</clipPath>
+								</defs>
+							</svg>
+       </a>
+      </div>
+
+      <ul class="no-list">
+       <li>
+        <a href="#" target="_blank" rel="nofollow noopener" class="m-descr down-border" title="LinkedIn | Opens in a new tab">LinkedIn</a>
+       </li>
+       <li>
+        <a href="#" target="_blank" rel="nofollow noopener" class="m-descr down-border" title="Medium | Opens in a new tab">Medium</a>
+       </li>
+       <li>
+        <a href="#" target="_blank" rel="nofollow noopener" class="m-descr down-border" title="Facebook | Opens in a new tab">Facebook</a>
+       </li>
+      </ul>
+     </div>
+
+
+     <div class="places">
+      <div class="place-el">
+       <p class="title-m">Germany</p>
+       <p class="m-descr">Berlin</p>
+       <a href="tel:49 15233977274" class="m-descr down-border" title="Call to 49 15233977274">49
+							15233977274</a>
+
+      </div>
+
+      <div class="place-el">
+       <p class="title-m">Baltic</p>
+       <p class="m-descr">Riga, Latvia</p>
+       <a href="tel:371 27869927" class="m-descr down-border" title="Call to 371 27869927">371
+							27869927</a>
+
+      </div>
+
+      <div class="place-el">
+       <p class="title-m">Russia</p>
+       <p class="m-descr">Moscow</p>
+       <a href="tel:7 495 7204026" class="m-descr down-border" title="Call to 7 495 7204026">7 495
+							7204026</a>
+
+      </div>
+
+      <div class="place-el">
+       <p class="title-m">Benelux</p>
+       <p class="m-descr">Antwerp, Belgium</p>
+       <a href="tel:32 43460180" class="m-descr down-border" title="Call to 32 43460180">32
+							43460180</a>
+
+      </div>
+
+      <div class="place-el">
+       <p class="title-m">USA</p>
+       <p class="m-descr">Austin, TX</p>
+       <a href="tel:49 15233977274" class="m-descr down-border" title="Call to 49 15233977274">49
+							15233977274</a>
+
+      </div>
+
+     </div>
+
+    </div>
+
+
+
+    <div class="footer-info">
+     <span class="copyright descr">ISDK ©2010-2020, All rights reserved.</span>
+     <ul class="footer-doc no-list">
+      <li>
+       <a href="#" class="descr inline-link" title="Cookies">Cookies</a>
+      </li>
+      <li>
+       <a href="#" class="descr inline-link" title="Privacy policy">Privacy policy</a>
+      </li>
+
+     </ul>
+    </div>
+   </div>
+
+
+
+  </footer>
+
+ </body>
+ <script src="./js/app.js"></script>
+
+</html>

@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/core.css">
+  <link rel="stylesheet" href="./css/contact-page.css" media="print" async onload="this.media='all'">
+  <noscript>
+		<link rel="stylesheet" href="./css/contact-page.css">
+	</noscript>
+ </head>
+
+ <body>
+
+  <header class="header">
+   <div class="container">
+    <div class="nav-content c-sb">
+     <div class="header-logo">
+      <a href="#" class="site-logo c-s" aria-label="Go to main">
+       <svg fill="none" viewBox="0 0 50 24">
+							<g clip-path="url(#logo)">
+								<path fill="#EF7800"
+									d="M0 0h5.1v23.7H0V0Zm14.8 19.5c0-.5-.2-1-.6-1.3l-2.4-1c-1.1-.3-2-.7-2.7-1-1.8-1-2.7-2.2-2.7-3.7 0-.8.2-1.6.7-2.2.5-.6 1.2-1.1 2.1-1.5a8.3 8.3 0 0 1 6 0c1 .5 1.7 1 2.2 1.7.5.7.7 1.5.7 2.4h-3.3a2 2 0 0 0-.7-1.6 3 3 0 0 0-1.9-.6c-.8 0-1.4.2-1.9.5-.4.3-.6.8-.6 1.3s.2.9.7 1.2c.6.3 1.3.7 2.3 1 2 .5 3.3 1.1 4.1 1.9.9.8 1.3 1.8 1.3 3s-.5 2.2-1.6 3c-1 .7-2.4 1-4.2 1-1.2 0-2.3-.1-3.3-.5-1-.5-1.8-1-2.3-1.8-.5-.7-.8-1.6-.8-2.5h3.3c0 1.6 1 2.4 3.1 2.4.8 0 1.4-.1 1.9-.4.4-.3.6-.7.6-1.3Z">
+								</path>
+								<path class="logo-fill" fill-rule="evenodd"
+									d="M34.2 7.1h3.2v7.4L44.8 7h4.4l-6.7 6.7 7 9.9h-3.9L40.3 16l-3 2.8v4.8h-3V7ZM13.8 0h-6v7.1h6V4H21c2 0 3.4.7 4.4 2 1 1.2 1.5 3 1.5 5.4v1.2c0 2.4-.6 4.1-1.6 5.4-1 1.2-2.4 1.8-4.3 1.8h-1.7v4H21c2 0 3.9-.5 5.5-1.5 1.7-1 3-2.2 3.8-4a11 11 0 0 0 1.4-5.8v-1.1c0-2.2-.4-4.2-1.4-5.9-.9-1.7-2.2-3-3.8-4A9.3 9.3 0 0 0 21 0h-7.2Z"
+									clip-rule="evenodd"></path>
+							</g>
+							<defs>
+								<clipPath id="logo">
+									<path fill="#fff" d="M0 0h50v23.7H0z"></path>
+								</clipPath>
+							</defs>
+						</svg>
+      </a>
+     </div>
+     <nav class="nav">
+      <ul class="no-list c-sb">
+       <li>
+        <a href="#" class="descr down-border">About</a>
+       </li>
+       <li>
+        <a href="#" class="descr down-border">Services</a>
+       </li>
+       <li>
+        <a href="#" class="descr down-border">Projects</a>
+       </li>
+       <li>
+        <a href="#" class="descr down-border">Contact</a>
+       </li>
+      </ul>
+     </nav>
+     <div class="nav-controls c-s">
+      <div class="lang-toggle">
+       <button class="curent-language descr down-border" aria-label="Change-language">en</button>
+      </div>
+      <button class="open-nav c-c" aria-label="Open menu">
+						<div class="menu-icon">
+							<div class="top-line"></div>
+							<div class="down-line"></div>
+						</div>
+					</button>
+     </div>
+    </div>
+   </div>
+
+   <div class="menu-panel">
+
+    <div class="menu">
+
+     <nav class="nav-panel">
+      <ul>
+       <li>
+        <a href="#">About</a>
+        <ul>
+         <li><a href="#">Company</a></li>
+         <li><a href="#">Careers</a></li>
+         <li><a href="#">Contact</a></li>
+        </ul>
+       </li>
+       <li>
+        <a href="#">Services</a>
+        <ul>
+         <li><a href="#">e-Commerce</a></li>
+         <li><a href="#">Digital Transformation</a></li>
+         <li><a href="#">Custom Development</a></li>
+        </ul>
+       </li>
+       <li>
+        <a href="#">Projects</a>
+        <ul>
+         <li><a href="#">Customers and Partners</a></li>
+         <li><a href="#">Cases</a></li>
+        </ul>
+       </li>
+       <li>
+        <a href="#">Blog</a>
+        <ul>
+         <li><a href="#">Development</a></li>
+         <li><a href="#">Marketing</a></li>
+        </ul>
+       </li>
+      </ul>
+     </nav>
+
+     <div class="header-places">
+      <div class="places">
+       <div class="place-el">
+        <p class="m-descr">Germany</p>
+        <p class="descr">Berlin</p>
+        <a href="tel:49 15233977274" class="descr down-border" title="Call to 49 15233977274">49
+								15233977274</a>
+        <div class="place-el"></div>
+       </div>
+
+       <div class="place-el">
+        <p class="m-descr">Baltic</p>
+        <p class="descr">Riga, Latvia</p>
+        <a href="tel:371 27869927" class="descr down-border" title="Call to 371 27869927">371
+								27869927</a>
+        <div class="place-el"></div>
+       </div>
+
+       <div class="place-el">
+        <p class="m-descr">Russia</p>
+        <p class="descr">Moscow</p>
+        <a href="tel:7 495 7204026" class="descr down-border" title="Call to 7 495 7204026">7 495
+								7204026</a>
+        <div class="place-el"></div>
+       </div>
+
+       <div class="place-el">
+        <p class="m-descr">Benelux</p>
+        <p class="descr">Antwerp, Belgium</p>
+        <a href="tel:32 43460180" class="descr down-border" title="Call to 32 43460180">32
+								43460180</a>
+        <div class="place-el"></div>
+       </div>
+
+       <div class="place-el">
+        <p class="m-descr">USA</p>
+        <p class="descr">Austin, TX</p>
+        <a href="tel:49 15233977274" class="descr down-border" title="Call to 49 15233977274">49
+								15233977274</a>
+        <div class="place-el"></div>
+       </div>
+
+      </div>
+     </div>
+     <div class="header-contacts">
+      <div class="contact-mail">
+       <a href="mailto:info@isdk.pro" class="title-m down-border" title="Write a letter to info@isdk.pro">info@isdk.pro</a>
+      </div>
+      <div class="contacts-social">
+       <ul class="no-list c-s">
+        <li>
+         <a href="#" target="_blank" rel="nofollow noopener" class="descr down-border" title="LinkedIn | Opens in a new tab">LinkedIn</a>
+        </li>
+        <li>
+         <a href="#" target="_blank" rel="nofollow noopener" class="descr down-border" title="Medium | Opens in a new tab">Medium</a>
+        </li>
+        <li>
+         <a href="#" target="_blank" rel="nofollow noopener" class="descr down-border" title="Facebook | Opens in a new tab">Facebook</a>
+        </li>
+       </ul>
+      </div>
+
+      <button class="contact-btn slide-hover" open-contact>
+						<div class="button-icon icon icon-m c-c">
+							<img class="lazy" width="40" height="40" data-src="./img/chat-icon.svg" alt="Chat icon">
+						</div>
+						<span class="m-descr m-0">Contact via pop-up form</span>
+						<div class="adv-icon icon icon-sm">
+							<svg fill="none" viewBox="0 0 24 24" width="24" height="24">
+								<path
+									d="M19 6c0-.6-.4-1-1-1H9a1 1 0 1 0 0 2h8v8a1 1 0 1 0 2 0V6ZM5.7 19.7l13-13-1.4-1.4-13 13 1.4 1.4Z">
+								</path>
+							</svg>
+						</div>
+					</button>
+     </div>
+
+    </div>
+   </div>
+  </header>
+
+
+
+
+  <div class="event-overlay"></div>
+
+
+  <div class="cookies-alert">
+   <div class="container">
+    <div class="cookies-info">
+     <p class="m-0">We use cookies to ensure you get the best experience on our website</p>
+     <button class="hide-alert c-c" aria-label="Close cookies alert">
+						<div class="menu-icon">
+						<div class="top-line"></div>
+							<div class="down-line"></div>
+							</div>
+					</button>
+    </div>
+   </div>
+  </div>
+
+  <main class="main contact-page">
+   <section class="hero">
+    <div class="container">
+     <div class="banner">
+      <div class="title-line iconed">
+       <div class="title-icon contact-icon">
+        <svg fill="none" viewBox="0 0 195 196">
+	<path fill="url(#contact-icon)" d="M.4 66s87 27.8 98.9 32.6a2693 2693 0 0 1 39 96.7L194.4.7.4 66Z" />
+	<defs>
+		<linearGradient id="contact-icon" x1="63.7" x2="77.4" y1=".7" y2="286.7" gradientUnits="userSpaceOnUse">
+			<stop offset=".2" stop-color="#EF7800" />
+			<stop offset="1" stop-color="#fff" />
+		</linearGradient>
+	</defs>
+</svg>
+       </div>
+       <h1 class="m-0 title-xl">
+        Contact Us
+       </h1>
+      </div>
+
+     </div>
+    </div>
+   </section>
+
+
+   <section class="form-block">
+    <div class="container">
+     <div class="form-info">
+      <p class="text-xl m-0">We look forward to hearing from you and will respond by email in no longer than one business day</p>
+      <a href="mailto:info@isdk.pro" class="title-m down-border" title="Write a letter to info@isdk.pro">info@isdk.pro</a>
+      <ul class="no-list c-s">
+       <li>
+        <a href="#" target="_blank" rel="nofollow noopener" class="m-descr down-border" title="LinkedIn | Opens in a new tab">LinkedIn</a>
+       </li>
+       <li>
+        <a href="#" target="_blank" rel="nofollow noopener" class="m-descr down-border" title="Medium | Opens in a new tab">Medium</a>
+       </li>
+       <li>
+        <a href="#" target="_blank" rel="nofollow noopener" class="m-descr down-border" title="Facebook | Opens in a new tab">Facebook</a>
+       </li>
+      </ul>
+
+      <div class="form">
+       <div class="form-inner">
+        <div class="sent-msg c-c">
+         <div class="sent-icon c-c">
+          <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M14.8105 51.0513L1 62V1H63V51.0513H14.8105Z" fill="url(#paint0_linear_1037_10206)" />
+											<path d="M20 24L30 34L45 18.5" class="icon-check" stroke="white" stroke-width="6" />
+											<defs>
+												<linearGradient id="paint0_linear_1037_10206" x1="52.3497" y1="3.77273" x2="61.328" y2="53.5137"
+													gradientUnits="userSpaceOnUse">
+													<stop stop-color="#EF7800" />
+													<stop offset="1" stop-color="#F6B370" />
+												</linearGradient>
+											</defs>
+										</svg>
+
+         </div>
+         <h3 class="sent-text">Your message has been successfully sent</h3>
+        </div>
+        <div role="form" class="wpcf7" id="wpcf7-f5-o1" lang="ru-RU" dir="ltr">
+         <div class="screen-reader-response">
+          <p role="status" aria-live="polite" aria-atomic="true"></p>
+          <ul></ul>
+         </div>
+         <form action="/contucts#wpcf7-f5-o1" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+          <div style="display: none;">
+           <input type="hidden" name="_wpcf7" value="5">
+           <input type="hidden" name="_wpcf7_version" value="5.5.3">
+           <input type="hidden" name="_wpcf7_locale" value="ru_RU">
+           <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f5-o1">
+           <input type="hidden" name="_wpcf7_container_post" value="0">
+           <input type="hidden" name="_wpcf7_posted_data_hash" value="">
+          </div>
+          <div class="form-row cols-2">
+           <div class="input drop-down">
+            <span class="wpcf7-form-control-wrap get-answer"><input type="text" name="get-answer"
+							value="Get an answer by email" size="40" class="wpcf7-form-control wpcf7-text"
+							readonly="readonly" aria-invalid="false"></span>
+            <div class="drop-icon c-c">
+             <svg fill="none" viewBox="0 0 24 24">
+							<path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+								d="m6 9 6 6 6-6"></path>
+						</svg>
+            </div>
+            <div class="values">
+             <button class="value">Get an answer by email</button>
+             <button class="value">Get an answer by email-2</button>
+             <button class="value">Get an answer by email-3</button>
+             <button class="value">Get an answer by email-4</button>
+            </div>
+
+           </div>
+           <div class="input">
+            <span class="wpcf7-form-control-wrap user-email"><input type="email" name="user-email" value=""
+							size="40"
+							class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
+							aria-required="true" aria-invalid="false" placeholder="Email address"></span>
+           </div>
+          </div>
+          <div class="form-row">
+           <div class="textarea">
+            <span class="wpcf7-form-control-wrap user-message"><textarea name="user-message" cols="40" rows="10"
+							class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true"
+							aria-invalid="false" placeholder="Type in your message or question"></textarea></span>
+           </div>
+          </div>
+
+          <div class="form-row with-hover">
+           <input type="submit" value="Send a message" class="wpcf7-form-control has-spinner wpcf7-submit submit-btn "><span class="wpcf7-spinner"></span>
+          </div>
+          <p class="submit-info m-0">By submitting this form, you agree to the <a href="#" class="down-border">ISDK Privacy
+																							Policy</a></p>
+          <div class="wpcf7-response-output" aria-hidden="true"></div>
+         </form>
+        </div>
+       </div>
+
+       <link rel="stylesheet" href="./css/form.css">
+
+
+      </div>
+
+
+
+
+
+   </section>
+
+
+   <div class="footer-delimiter">
+    <div class="container">
+     <div class="delimiter-wrapper">
+      <p class="m-0 m-descr">International offices</p>
+     </div>
+    </div>
+   </div>
+
+
+  </main>
+
+
+  <footer class="footer contact-footer">
+   <div class="container">
+    <!-- <div class="footer-title">
+     <div class="title-line iconed">
+
+      <div class="title-icon send">
+       <svg width="270" height="270" viewBox="0 0 270 270" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M18 124.322C18 124.322 104.98 152.16 116.921 156.935C124.555 172.205 155.903 253.643 155.903 253.643L212.049 59L18 124.322Z"
+								fill="url(#paint0_linear_766_8449)" />
+							<defs>
+								<linearGradient id="paint0_linear_766_8449" x1="81.3314" y1="59" x2="95.0262"
+									y2="345.058" gradientUnits="userSpaceOnUse">
+									<stop offset="0.213542" stop-color="#EF7800" />
+									<stop offset="1" stop-color="white" />
+								</linearGradient>
+							</defs>
+						</svg>
+      </div>
+      <h2 class="title-l">Let’s get started</h2>
+     </div>
+    </div> -->
+
+    <!-- <div class="contact-line">
+     <div class="contact-mail">
+      <a href="mailto:info@isdk.pro" class="title-m down-border" title="Write a letter to info@isdk.pro">info@isdk.pro</a>
+     </div>
+
+
+     <button class="contact-btn slide-hover">
+					<div class="button-icon icon icon-m c-c">
+						<img class="lazy" width="40" height="40" data-src="./img/chat-icon.svg" alt="Chat icon">
+					</div>
+					<span class="m-descr m-0">Contact via pop-up form</span>
+					<div class="adv-icon icon icon-sm">
+						<svg fill="none" viewBox="0 0 24 24">
+							<path
+								d="M19 6c0-.6-.4-1-1-1H9a1 1 0 1 0 0 2h8v8a1 1 0 1 0 2 0V6ZM5.7 19.7l13-13-1.4-1.4-13 13 1.4 1.4Z" />
+						</svg>
+					</div>
+				</button>
+    </div> -->
+
+    <div class="footer-links">
+
+     <div class="social">
+
+      <!-- <div class="footer-logo c-s">
+       <a href="#" class="site-logo c-s" aria-label="Go to main">
+        <svg fill="none" viewBox="0 0 50 24">
+								<g clip-path="url(#a)">
+									<path fill="#EF7800"
+										d="M0 0h5.1v23.7H0V0Zm14.8 19.5c0-.5-.2-1-.6-1.3l-2.4-1c-1.1-.3-2-.7-2.7-1-1.8-1-2.7-2.2-2.7-3.7 0-.8.2-1.6.7-2.2.5-.6 1.2-1.1 2.1-1.5a8.3 8.3 0 0 1 6 0c1 .5 1.7 1 2.2 1.7.5.7.7 1.5.7 2.4h-3.3a2 2 0 0 0-.7-1.6 3 3 0 0 0-1.9-.6c-.8 0-1.4.2-1.9.5-.4.3-.6.8-.6 1.3s.2.9.7 1.2c.6.3 1.3.7 2.3 1 2 .5 3.3 1.1 4.1 1.9.9.8 1.3 1.8 1.3 3s-.5 2.2-1.6 3c-1 .7-2.4 1-4.2 1-1.2 0-2.3-.1-3.3-.5-1-.5-1.8-1-2.3-1.8-.5-.7-.8-1.6-.8-2.5h3.3c0 1.6 1 2.4 3.1 2.4.8 0 1.4-.1 1.9-.4.4-.3.6-.7.6-1.3Z" />
+									<path fill="#333" fill-rule="evenodd"
+										d="M34.2 7.1h3.2v7.4L44.8 7h4.4l-6.7 6.7 7 9.9h-3.9L40.3 16l-3 2.8v4.8h-3V7ZM13.8 0h-6v7.1h6V4H21c2 0 3.4.7 4.4 2 1 1.2 1.5 3 1.5 5.4v1.2c0 2.4-.6 4.1-1.6 5.4-1 1.2-2.4 1.8-4.3 1.8h-1.7v4H21c2 0 3.9-.5 5.5-1.5 1.7-1 3-2.2 3.8-4a11 11 0 0 0 1.4-5.8v-1.1c0-2.2-.4-4.2-1.4-5.9-.9-1.7-2.2-3-3.8-4A9.3 9.3 0 0 0 21 0h-7.2Z"
+										clip-rule="evenodd" />
+								</g>
+								<defs>
+									<clipPath id="a">
+										<path fill="#fff" d="M0 0h50v23.7H0z" />
+									</clipPath>
+								</defs>
+							</svg>
+       </a>
+      </div> -->
+
+      <!-- <ul class="no-list">
+       <li>
+        <a href="#" target="_blank" rel="nofollow noopener" class="m-descr down-border" title="LinkedIn | Opens in a new tab">LinkedIn</a>
+       </li>
+       <li>
+        <a href="#" target="_blank" rel="nofollow noopener" class="m-descr down-border" title="Medium | Opens in a new tab">Medium</a>
+       </li>
+       <li>
+        <a href="#" target="_blank" rel="nofollow noopener" class="m-descr down-border" title="Facebook | Opens in a new tab">Facebook</a>
+       </li>
+      </ul> -->
+     </div>
+
+
+     <div class="places">
+      <div class="place-el">
+       <p class="title-m">Germany</p>
+       <p class="m-descr">Berlin</p>
+       <a href="tel:49 15233977274" class="m-descr down-border" title="Call to 49 15233977274">49
+							15233977274</a>
+
+      </div>
+
+      <div class="place-el">
+       <p class="title-m">Baltic</p>
+       <p class="m-descr">Riga, Latvia</p>
+       <a href="tel:371 27869927" class="m-descr down-border" title="Call to 371 27869927">371
+							27869927</a>
+
+      </div>
+
+      <div class="place-el">
+       <p class="title-m">Russia</p>
+       <p class="m-descr">Moscow</p>
+       <a href="tel:7 495 7204026" class="m-descr down-border" title="Call to 7 495 7204026">7 495
+							7204026</a>
+
+      </div>
+
+      <div class="place-el">
+       <p class="title-m">Benelux</p>
+       <p class="m-descr">Antwerp, Belgium</p>
+       <a href="tel:32 43460180" class="m-descr down-border" title="Call to 32 43460180">32
+							43460180</a>
+
+      </div>
+
+      <div class="place-el">
+       <p class="title-m">USA</p>
+       <p class="m-descr">Austin, TX</p>
+       <a href="tel:49 15233977274" class="m-descr down-border" title="Call to 49 15233977274">49
+							15233977274</a>
+
+      </div>
+
+     </div>
+
+    </div>
+
+
+
+    <div class="footer-info">
+     <span class="copyright descr">ISDK ©2010-2020, All rights reserved.</span>
+     <ul class="footer-doc no-list">
+      <li>
+       <a href="#" class="descr inline-link" title="Cookies">Cookies</a>
+      </li>
+      <li>
+       <a href="#" class="descr inline-link" title="Privacy policy">Privacy policy</a>
+      </li>
+
+     </ul>
+    </div>
+   </div>
+
+
+
+  </footer>
+
+ </body>
+ <script src="./js/app.js"></script>
+
+</html>
