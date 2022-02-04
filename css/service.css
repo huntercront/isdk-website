@@ -156,8 +156,16 @@
     color: var(--main);
 }
 
-.case-alternate+.blog {
-    margin-top: 12rem;
+.services-page .case-alternate+.blog {
+    margin-top: 15.75rem;
+}
+
+.services-page .service-data+.button-block {
+    margin-top: 6.25rem;
+}
+
+.services-page .button-block+.case-alternate {
+    margin-top: 10.8rem;
 }
 
 @media screen and (max-width:950px) {
@@ -189,6 +197,15 @@
     }
     .case-alternate+.blog {
         margin-top: 8rem;
+    }
+    .services-page .case-alternate+.blog {
+        margin-top: 12.5rem;
+    }
+    .services-page .service-stream .title-m {
+        font-size: 1.5rem;
+    }
+    .services-page .service-data+.button-block {
+        margin-top: 3.5rem;
     }
 }
 
